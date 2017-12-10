@@ -238,7 +238,7 @@ if __name__=="__main__":
    # printing the final dataset statistics and the final dataset itself
    dn.to_csv("wineTreated.csv")
    temp = dn.describe()
-   temp.to_csv('out.csv')
+   temp.to_csv('wineTreatedStatistics.csv')
    #np.savetxt('outtext.txt',df.describe(), fmt='%f')
    
 
