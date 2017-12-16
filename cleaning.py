@@ -1,12 +1,12 @@
 import matplotlib.pyplot as plt
-import csv
 import numpy as np
 import pandas as pd
 from scipy import stats as ss
 import seaborn as sns
 from scipy.stats import mstats
 import os
-
+import statsmodels.api as sm
+from sklearn.decomposition import PCA
 
 def createImagesFolder(directory):
 
@@ -14,9 +14,101 @@ def createImagesFolder(directory):
      os.makedirs(directory)
 
 
+def applyPCA(df, components):
+   pca = PCA(n_components=components)
+   pca.fit(df[:-1])
+   PCA(copy=True, iterated_power='auto', n_components=components, random_state=None,
+   svd_solver='auto', tol=0.0, whiten=False)
+   print "PCA levels :",(pca.explained_variance_ratio_) 
+
+
+
+def multipleRegression(df):
+  text_file = open("figures/RegressionMultipleValues.txt", "w")
+  # regression for every pair of columns
+  for i in range (len(df.columns.tolist())):
+     for j in range(i+1, len(df.columns.tolist())-1): 
+        X =  df[[df.columns[i],df.columns[j]]]
+        y = df[df.columns[-1]]
+        X = sm.add_constant(X)
+        est = sm.OLS(y,X).fit()
+
+        text_file.write(est.summary().as_text())
+  text_file.close()
+  text_file = open("figures/RegressionMultipleValues.txt", "a")
+  # regression of all columns
+  Z = df[df.columns.tolist()[:-1]]
+  #t = df[df.columns[-1]]
+  Z = sm.add_constant(Z)
+  est2 = sm.OLS(y,Z).fit()
+  text_file.write(est2.summary().as_text())
+  text_file.close()
+
+
 def kruskalWallis(df, alpha):
 
    print(" Kruskal Wallis H-test test:")
+   # get the H and pval
+   H, pval = mstats.kruskalwallis([df[col] for col in df.columns.tolist()[:-1]])
+
+   print " H-statistic:", H
+   print " P-Value:", pval
+   #check pvalue
+   if pval < alpha:
+      print("Reject NULL hypothesis - Significant differences exist between groups.\n\n")
+   if pval >= alpha:
+      print("Accept NULL hypothesis - No significant difference between groups.\n\n")
+
+
+def mannWhitney(df, alpha):
+
+   print(" Mann-Whitney  test:")
+
+   h = list(df.columns.values)
+   # get the H and pval
+   for i in range (len(h)):
+
+
+    for j in range(i+1,len(h)):
+      #Hk, pvalk = mstats.kruskalwallis([df[column],df[h[-1]]])
+      H, pval = ss.mannwhitneyu(df[h[i]],df[h[j]])
+
+      print " H-statistic:", H 
+      print " P-Value:", pval
+      #check pvalue
+      if pval < alpha:
+         print "Reject NULL hypothesis - Significant differences between ",h[i]," and ",h[j], "\n\n"
+      if pval >= alpha:
+         print "Accept NULL hypothesis - No significant differences between ",h[i]," and ",h[j], "\n\n"
+
+
+
+def isNormalDistribution(df,alpha,shapiro=True):
+
+   print "\nChecking if the columns follow a normal distribution by d'Agostino & Pearson or Shpapiro test...\n"
+   #list of column except the "quality"
+   h = list(df.columns.values)
+   count = 0
+   for i in  h:
+
+      u,v = ss.shapiro(df[i])
+      k,p = mstats.normaltest(df[i])
+
+      if (shapiro):
+         if v < alpha:
+            print "   The null hypothesis can be rejected; Column: ", i,"\n"
+            count += 1
+         else: "   The null hypothesis can not be rejected; Column: ",i,"\n"
+      if count == len(h):
+         print "\n\n   Any column follows a normal distribution\n"
+      else:
+         if p < alpha:
+           print "   The null hypothesis can be rejected; Column: ", i,"\n"
+           count += 1
+         else: "   The null hypothesis can not be rejected; Column: ",i,"\n"
+      if count == len(h):
+         print "\n\n   Any column follows a normal distribution\n"
+
    # get the H and pval
    H, pval = mstats.kruskalwallis([df[col] for col in df.columns.tolist()[:-1]])
 
@@ -47,6 +139,7 @@ def isNormalDistribution(df,alpha):
     else: "   The null hypothesis can not be rejected; Column: ",i,"\n"
   if count == len(h):
        print "\n\n   Any column follows a normal distribution\n"
+
 
 
 def isHomogeneous(df,alpha,levene=True):
@@ -90,15 +183,17 @@ def isHomogeneous(df,alpha,levene=True):
 def regression(df, r):
 
   h = list(df.columns.values)
+
   val = []
   #we loop simetrical matrix
   for i in range (len(h)):
+
 
     for j in range(i+1,len(h)):
 
       #compute line parameters
       slope, intercept, rvalue, p, error = ss.linregress(df[h[i]],df[h[j]])
-
+      #print rvalue**2, h[i],h[j]
       #if correlation is good enough ...
       if  (rvalue**2 > r or rvalue**2 < -r) :
 
@@ -120,39 +215,54 @@ def regression(df, r):
 
 
 
-def checkOutliers(df, maxQ, minQ, removeOutliers=True):
+def checkOutliers(df, maxQ, minQ,  applyFunction=True,removeOutliers=True):
 
 
-  h = list(df.columns.values)[:-1]
-  dp = pd.DataFrame(columns=h)
-  totalOutliers = 0
-  for i in h:
+ h = list(df.columns.values)[:-1]
+ dp = pd.DataFrame(columns=h)
+ totalOutliers = 0
+ if (applyFunction):
+   print "Counting the outliers..."
+   print "Column---Number---Outliers Up---Outliers Down"
+   for i in h:
      outliers = 0
      #compute iqr and maxQuantil and minQuantil
      iqr = np.percentile(df[i].tolist(),maxQ)- np.percentile(df[i].tolist(),minQ)
      maxQuantil = np.percentile(df[i].tolist(),maxQ) + float(iqr*1.5)
      minQuantil = np.percentile(df[i].tolist(),minQ) - float(iqr*1.5)
-     outliers += df[i][df[i] > maxQuantil].count() + df[i][df[i] < minQuantil].count()
-     # convert the outlier to NaN in dataset
+     supOutliers = df[i][df[i] > maxQuantil].count()
+     infOutliers = df[i][df[i] < minQuantil].count()
+     outliers += supOutliers + infOutliers
+     
+     
+     print i,"-->",outliers, ",", supOutliers, ",",infOutliers
+    
+     #plotting the outliers
+     flierprops = dict(markerfacecolor='1.75', markersize=5,linestyle='none')
+     sns.boxplot(df[i],flierprops=flierprops)
+     plt.savefig('figures/'+str(i)+"_BoxPlot")
+     plt.show(block=False)
+     plt.clf()
+     
+     #converting the outliers to NaN values
      df[i] = df[i][df[i] < maxQuantil]
      df[i] = df[i][df[i] > minQuantil]
+     
+   #remove the rows with NaN values
+   dp = df.dropna(axis=0, how='any')
 
-     #dp[i] =df[i].interpolate(method='polynomial')
-     #dp[i] = df[i].fillna(df[i].mean())
-  
-  #remove the rows with NaN values
-  dp = df.dropna(axis=0, how='any')
-
-  totalOutliers = df[h[0]].count() - dp[h[0]].count()
-  print "\n*** The total outliers in the dataset are :" +str(totalOutliers)+ "***\n "
-  #if removeOutliers we remove the NaN rows.  If not we replace by the Nan value by the mean
-  if (removeOutliers):
+   totalOutliers = df[h[0]].count() - dp[h[0]].count()
+   print "\n*** The total outliers in the dataset are :" +str(totalOutliers)+ "  ***\n "
+   #if removeOutliers we remove the NaN rows.  If not we replace by the Nan value by the mean
+   if (removeOutliers):
+    
     return dp
 
-  else: 
+   else: 
     dp = df.fillna(df.mean())
     return dp
-
+ else:
+    return df
 
 def normalizedData(df):
 
@@ -166,46 +276,7 @@ def normalizedData(df):
 
   return dp
 
-
-def regression(df, r):
-
-  h = list(df.columns.values)
-  val = []
-  #we loop simetrical matrix
-  for i in range (len(h)):
-
-    for j in range(i+1,len(h)):
-
-      #compute line parameters
-      slope, intercept, rvalue, p, error = ss.linregress(df[h[i]],df[h[j]])
-
-      #if correlation is good enough ...
-      if  (rvalue**2 > r or rvalue**2 < -r) :
-
-         print "\n***  The line equation is: ", h[j] ," =",slope,"*", h[i]," + (",intercept,")      ***\n" 
-
-         val.append((h[i],h[j]))
-
-  count = 0
-"""
-def drawNormal2(df):
-
-  h = list(df.columns.values)
-  dp = pd.DataFrame(columns=h)
   
-  for i in h[:-1]:
-     mean = np.mean(df[i])
-     std = np.std(df[i], ddof=1)
-     dp[i] = df[i].map(lambda x:(x-mean)/std)
-     dp[i].plot(kind='hist',title=i) 
-     s = i+".png"
-     plt.savefig(s)
-
-     
-     plt.show(block=False)
-     plt.clf()
-
-"""  
    
 def drawNormal(df):
 
@@ -242,12 +313,13 @@ if __name__=="__main__":
    df = pd.read_csv("wine.csv",sep=';')
    df.describe().to_csv("wineStatistics.csv")
 
-   # checking the outliers
-   dc = checkOutliers(df,75,25)
+   # checking the outliers 
+   dc = checkOutliers(df,75,25,True,True)
+
 
    #normalizing data
-   dn = normalizedData(dc)
-
+   #dn = normalizedData(dc)
+   dn = dc
    #checking if normal distribution
    isNormalDistribution(dn,0.05)
 
@@ -256,21 +328,31 @@ if __name__=="__main__":
    
    #applying Kruskall Wallis hypothesis
    kruskalWallis(dn,0.05)
-  
+
+   # applying Mann-Whitney
+   mannWhitney(dn, 0.05)
+
    #computing the possible lines between fields given a correlation and plotting the lines
    regression(dn,0.675)
    
    #plotting the normal curves for each fiel
    drawNormal(dn)
 
-   #drawNormal2(dn)
-   
+   #applyin multiple regression for each pair of variable and for all the variables 
+   multipleRegression(dn)
+
    # printing the final dataset statistics and the final dataset itself
    dn.to_csv("wineTreated.csv")
    temp = dn.describe()
    temp.to_csv('wineTreatedStatistics.csv')
-   #np.savetxt('outtext.txt',df.describe(), fmt='%f')
+
+   #uncomment if you want to apply pca 
+   """
+   applyPCA(dn,2)
+
+   """
    
+
 
 
 
