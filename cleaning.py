@@ -47,39 +47,20 @@ def multipleRegression(df):
 
 def kruskalWallis(df, alpha):
 
-   print(" Kruskal Wallis H-test test:")
-   # get the H and pval
-   H, pval = mstats.kruskalwallis([df[col] for col in df.columns.tolist()[:-1]])
+  print(" Kruskal Wallis H-test test:")
+  h = list(df.columns.values)
 
-   print " H-statistic:", H
-   print " P-Value:", pval
-   #check pvalue
-   if pval < alpha:
-      print("Reject NULL hypothesis - Significant differences exist between groups.\n\n")
-   if pval >= alpha:
-      print("Accept NULL hypothesis - No significant difference between groups.\n\n")
+  for column in h[:-1]:
+    # get the H and pval
+    H, pval = mstats.kruskalwallis(df[column].tolist(),df["quality"].tolist())
 
-
-def mannWhitney(df, alpha):
-
-   print(" Mann-Whitney  test:")
-
-   h = list(df.columns.values)
-   # get the H and pval
-   for i in range (len(h)):
-
-
-    for j in range(i+1,len(h)):
-      #Hk, pvalk = mstats.kruskalwallis([df[column],df[h[-1]]])
-      H, pval = ss.mannwhitneyu(df[h[i]],df[h[j]])
-
-      print " H-statistic:", H 
-      print " P-Value:", pval
-      #check pvalue
-      if pval < alpha:
-         print "Reject NULL hypothesis - Significant differences between ",h[i]," and ",h[j], "\n\n"
-      if pval >= alpha:
-         print "Accept NULL hypothesis - No significant differences between ",h[i]," and ",h[j], "\n\n"
+    print " H-statistic:", H
+    print " P-Value:", pval
+    #check pvalue
+    if pval < alpha:
+       print "Reject NULL hypothesis - Significant differences exist between ",column," and quality \n\n"
+    if pval >= alpha:
+       print "Accept NULL hypothesis - No significant difference between ", column," and quality \n\n"
 
 
 
@@ -108,37 +89,6 @@ def isNormalDistribution(df,alpha,shapiro=True):
          else: "   The null hypothesis can not be rejected; Column: ",i,"\n"
       if count == len(h):
          print "\n\n   Any column follows a normal distribution\n"
-
-   # get the H and pval
-   H, pval = mstats.kruskalwallis([df[col] for col in df.columns.tolist()[:-1]])
-
-   print " H-statistic:", H
-   print " P-Value:", pval
-   #check pvalue
-   if pval < alpha:
-      print("Reject NULL hypothesis - Significant differences exist between groups.\n\n")
-   if pval >= alpha:
-      print("Accept NULL hypothesis - No significant difference between groups.\n\n")
-
-
-
-def isNormalDistribution(df,alpha):
-
-  print "\nChecking if it the columns follow a normal distribution by d'Agostino & Pearson test...\n"
-  #list of column except the "quality"
-  h = list(df.columns.values)[:-1]
-  count = 0
-  for i in  h:
-    #u,v = ss.shapiro(df[i])
-
-    k,p = mstats.normaltest(df[i])
-
-    if p < alpha:
-       print "   The null hypothesis can be rejected; Column: ", i,"\n"
-       count += 1
-    else: "   The null hypothesis can not be rejected; Column: ",i,"\n"
-  if count == len(h):
-       print "\n\n   Any column follows a normal distribution\n"
 
 
 
@@ -264,6 +214,8 @@ def checkOutliers(df, maxQ, minQ,  applyFunction=True,removeOutliers=True):
  else:
     return df
 
+
+
 def normalizedData(df):
 
   h = list(df.columns.values)
@@ -304,6 +256,7 @@ def drawNormal(df):
      plt.clf()
 
 
+
 if __name__=="__main__":
    
    #create the folder for storing the images
@@ -314,7 +267,7 @@ if __name__=="__main__":
    df.describe().to_csv("wineStatistics.csv")
 
    # checking the outliers 
-   dc = checkOutliers(df,75,25,True,True)
+   dc = checkOutliers(df,75,25,False,True)
 
 
    #normalizing data
@@ -328,9 +281,6 @@ if __name__=="__main__":
    
    #applying Kruskall Wallis hypothesis
    kruskalWallis(dn,0.05)
-
-   # applying Mann-Whitney
-   mannWhitney(dn, 0.05)
 
    #computing the possible lines between fields given a correlation and plotting the lines
    regression(dn,0.675)
