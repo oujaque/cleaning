@@ -3,23 +3,23 @@
 Dep. Variable:                quality   R-squared:                       0.016
 Model:                            OLS   Adj. R-squared:                  0.015
 Method:                 Least Squares   F-statistic:                     32.41
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           1.09e-14
-Time:                        22:30:28   Log-Likelihood:                -5011.1
-No. Observations:                3994   AIC:                         1.003e+04
-Df Residuals:                    3991   BIC:                         1.005e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           1.09e-14
+Time:                        21:53:02   Log-Likelihood:                 2145.1
+No. Observations:                3994   AIC:                            -4284.
+Df Residuals:                    3991   BIC:                            -4265.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ====================================================================================
                        coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------------
-const                6.7274      0.137     49.184      0.000       6.459       6.996
-fixed acidity       -0.0638      0.019     -3.444      0.001      -0.100      -0.027
-volatile acidity    -1.3059      0.176     -7.407      0.000      -1.652      -0.960
+const                0.5517      0.008     65.239      0.000       0.535       0.568
+fixed acidity       -0.0404      0.012     -3.444      0.001      -0.063      -0.017
+volatile acidity    -0.0881      0.012     -7.407      0.000      -0.111      -0.065
 ==============================================================================
 Omnibus:                       47.529   Durbin-Watson:                   1.603
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               49.282
 Skew:                           0.257   Prob(JB):                     1.99e-11
-Kurtosis:                       3.178   Cond. No.                         97.7
+Kurtosis:                       3.178   Cond. No.                         7.91
 ==============================================================================
 
 Warnings:
@@ -28,23 +28,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.003
 Model:                            OLS   Adj. R-squared:                  0.003
 Method:                 Least Squares   F-statistic:                     6.929
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           0.000991
-Time:                        22:30:28   Log-Likelihood:                -5036.4
-No. Observations:                3994   AIC:                         1.008e+04
-Df Residuals:                    3991   BIC:                         1.010e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           0.000991
+Time:                        21:53:02   Log-Likelihood:                 2119.9
+No. Observations:                3994   AIC:                            -4234.
+Df Residuals:                    3991   BIC:                            -4215.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 =================================================================================
                     coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------
-const             6.3039      0.129     48.807      0.000       6.051       6.557
-fixed acidity    -0.0677      0.019     -3.528      0.000      -0.105      -0.030
-citric acid       0.3250      0.162      2.009      0.045       0.008       0.642
+const             0.5008      0.008     64.133      0.000       0.485       0.516
+fixed acidity    -0.0429      0.012     -3.528      0.000      -0.067      -0.019
+citric acid       0.0255      0.013      2.009      0.045       0.001       0.050
 ==============================================================================
 Omnibus:                       29.244   Durbin-Watson:                   1.600
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               29.746
 Skew:                           0.203   Prob(JB):                     3.47e-07
-Kurtosis:                       3.116   Cond. No.                         84.6
+Kurtosis:                       3.116   Cond. No.                         7.55
 ==============================================================================
 
 Warnings:
@@ -53,23 +53,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.015
 Model:                            OLS   Adj. R-squared:                  0.014
 Method:                 Least Squares   F-statistic:                     29.68
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           1.60e-13
-Time:                        22:30:28   Log-Likelihood:                -5013.8
-No. Observations:                3994   AIC:                         1.003e+04
-Df Residuals:                    3991   BIC:                         1.005e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           1.60e-13
+Time:                        21:53:02   Log-Likelihood:                 2142.5
+No. Observations:                3994   AIC:                            -4279.
+Df Residuals:                    3991   BIC:                            -4260.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ==================================================================================
                      coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------
-const              6.4016      0.127     50.396      0.000       6.153       6.651
-fixed acidity     -0.0486      0.019     -2.617      0.009      -0.085      -0.012
-residual sugar    -0.0192      0.003     -7.031      0.000      -0.025      -0.014
+const              0.5253      0.007     78.740      0.000       0.512       0.538
+fixed acidity     -0.0308      0.012     -2.617      0.009      -0.054      -0.008
+residual sugar    -0.0685      0.010     -7.031      0.000      -0.088      -0.049
 ==============================================================================
 Omnibus:                       28.642   Durbin-Watson:                   1.602
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               29.816
 Skew:                           0.186   Prob(JB):                     3.35e-07
-Kurtosis:                       3.203   Cond. No.                         96.2
+Kurtosis:                       3.203   Cond. No.                         6.79
 ==============================================================================
 
 Warnings:
@@ -78,23 +78,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.083
 Model:                            OLS   Adj. R-squared:                  0.083
 Method:                 Least Squares   F-statistic:                     181.1
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           5.38e-76
-Time:                        22:30:28   Log-Likelihood:                -4869.9
-No. Observations:                3994   AIC:                             9746.
-Df Residuals:                    3991   BIC:                             9765.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           5.38e-76
+Time:                        21:53:02   Log-Likelihood:                 2286.4
+No. Observations:                3994   AIC:                            -4567.
+Df Residuals:                    3991   BIC:                            -4548.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 =================================================================================
                     coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------
-const             7.1455      0.130     55.169      0.000       6.892       7.399
-fixed acidity    -0.0217      0.018     -1.210      0.226      -0.057       0.013
-chlorides       -24.7630      1.321    -18.747      0.000     -27.353     -22.173
+const             0.6071      0.008     75.988      0.000       0.591       0.623
+fixed acidity    -0.0138      0.011     -1.210      0.226      -0.036       0.009
+chlorides        -0.2270      0.012    -18.747      0.000      -0.251      -0.203
 ==============================================================================
 Omnibus:                       35.960   Durbin-Watson:                   1.574
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               41.212
 Skew:                           0.176   Prob(JB):                     1.12e-09
-Kurtosis:                       3.352   Cond. No.                         705.
+Kurtosis:                       3.352   Cond. No.                         7.72
 ==============================================================================
 
 Warnings:
@@ -103,23 +103,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.003
 Model:                            OLS   Adj. R-squared:                  0.002
 Method:                 Least Squares   F-statistic:                     5.185
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):            0.00564
-Time:                        22:30:28   Log-Likelihood:                -5038.1
-No. Observations:                3994   AIC:                         1.008e+04
-Df Residuals:                    3991   BIC:                         1.010e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):            0.00564
+Time:                        21:53:02   Log-Likelihood:                 2118.2
+No. Observations:                3994   AIC:                            -4230.
+Df Residuals:                    3991   BIC:                            -4211.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 =======================================================================================
                           coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------------
-const                   6.3203      0.132     47.906      0.000       6.062       6.579
-fixed acidity          -0.0581      0.019     -3.118      0.002      -0.095      -0.022
-free sulfur dioxide     0.0007      0.001      0.747      0.455      -0.001       0.002
+const                   0.5062      0.008     62.510      0.000       0.490       0.522
+fixed acidity          -0.0368      0.012     -3.118      0.002      -0.060      -0.014
+free sulfur dioxide     0.0088      0.012      0.747      0.455      -0.014       0.032
 ==============================================================================
 Omnibus:                       29.786   Durbin-Watson:                   1.598
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               30.277
 Skew:                           0.207   Prob(JB):                     2.66e-07
-Kurtosis:                       3.103   Cond. No.                         378.
+Kurtosis:                       3.103   Cond. No.                         7.59
 ==============================================================================
 
 Warnings:
@@ -128,77 +128,73 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.032
 Model:                            OLS   Adj. R-squared:                  0.031
 Method:                 Least Squares   F-statistic:                     65.18
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           1.40e-28
-Time:                        22:30:28   Log-Likelihood:                -4979.1
-No. Observations:                3994   AIC:                             9964.
-Df Residuals:                    3991   BIC:                             9983.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           1.40e-28
+Time:                        21:53:02   Log-Likelihood:                 2177.2
+No. Observations:                3994   AIC:                            -4348.
+Df Residuals:                    3991   BIC:                            -4329.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ========================================================================================
                            coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------------
-const                    6.7091      0.130     51.617      0.000       6.454       6.964
-fixed acidity           -0.0399      0.018     -2.164      0.031      -0.076      -0.004
-total sulfur dioxide    -0.0036      0.000    -10.966      0.000      -0.004      -0.003
+const                    0.5731      0.008     67.430      0.000       0.556       0.590
+fixed acidity           -0.0253      0.012     -2.164      0.031      -0.048      -0.002
+total sulfur dioxide    -0.1392      0.013    -10.966      0.000      -0.164      -0.114
 ==============================================================================
 Omnibus:                       26.935   Durbin-Watson:                   1.594
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               30.738
 Skew:                           0.145   Prob(JB):                     2.12e-07
-Kurtosis:                       3.318   Cond. No.                     1.41e+03
+Kurtosis:                       3.318   Cond. No.                         8.00
 ==============================================================================
 
 Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 1.41e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                quality   R-squared:                       0.092
 Model:                            OLS   Adj. R-squared:                  0.092
 Method:                 Least Squares   F-statistic:                     202.9
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           1.16e-84
-Time:                        22:30:28   Log-Likelihood:                -4849.9
-No. Observations:                3994   AIC:                             9706.
-Df Residuals:                    3991   BIC:                             9725.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           1.16e-84
+Time:                        21:53:02   Log-Likelihood:                 2306.4
+No. Observations:                3994   AIC:                            -4607.
+Df Residuals:                    3991   BIC:                            -4588.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 =================================================================================
                     coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------
-const            96.5478      4.540     21.268      0.000      87.648     105.448
-fixed acidity     0.0266      0.018      1.456      0.145      -0.009       0.062
-density         -91.3412      4.595    -19.877      0.000    -100.351     -82.332
+const             0.5857      0.007     81.915      0.000       0.572       0.600
+fixed acidity     0.0169      0.012      1.456      0.145      -0.006       0.040
+density          -0.2261      0.011    -19.877      0.000      -0.248      -0.204
 ==============================================================================
 Omnibus:                       40.580   Durbin-Watson:                   1.601
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               53.112
 Skew:                           0.147   Prob(JB):                     2.93e-12
-Kurtosis:                       3.482   Cond. No.                     3.50e+03
+Kurtosis:                       3.482   Cond. No.                         7.25
 ==============================================================================
 
 Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 3.5e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                quality   R-squared:                       0.006
 Model:                            OLS   Adj. R-squared:                  0.006
 Method:                 Least Squares   F-statistic:                     12.14
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           5.54e-06
-Time:                        22:30:28   Log-Likelihood:                -5031.2
-No. Observations:                3994   AIC:                         1.007e+04
-Df Residuals:                    3991   BIC:                         1.009e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           5.54e-06
+Time:                        21:53:02   Log-Likelihood:                 2125.1
+No. Observations:                3994   AIC:                            -4244.
+Df Residuals:                    3991   BIC:                            -4225.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 =================================================================================
                     coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------
-const             4.8720      0.408     11.936      0.000       4.072       5.672
-fixed acidity    -0.0299      0.020     -1.493      0.135      -0.069       0.009
-pH                0.4015      0.106      3.799      0.000       0.194       0.609
+const             0.4769      0.011     44.390      0.000       0.456       0.498
+fixed acidity    -0.0190      0.013     -1.493      0.135      -0.044       0.006
+pH                0.0489      0.013      3.799      0.000       0.024       0.074
 ==============================================================================
 Omnibus:                       28.037   Durbin-Watson:                   1.594
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               28.532
 Skew:                           0.197   Prob(JB):                     6.37e-07
-Kurtosis:                       3.126   Cond. No.                         237.
+Kurtosis:                       3.126   Cond. No.                         9.98
 ==============================================================================
 
 Warnings:
@@ -207,23 +203,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.003
 Model:                            OLS   Adj. R-squared:                  0.002
 Method:                 Least Squares   F-statistic:                     5.429
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):            0.00442
-Time:                        22:30:28   Log-Likelihood:                -5037.9
-No. Observations:                3994   AIC:                         1.008e+04
-Df Residuals:                    3991   BIC:                         1.010e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):            0.00442
+Time:                        21:53:03   Log-Likelihood:                 2118.4
+No. Observations:                3994   AIC:                            -4231.
+Df Residuals:                    3991   BIC:                            -4212.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 =================================================================================
                     coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------
-const             6.2782      0.144     43.736      0.000       5.997       6.560
-fixed acidity    -0.0583      0.019     -3.132      0.002      -0.095      -0.022
-sulphates         0.1397      0.137      1.022      0.307      -0.128       0.408
+const             0.5038      0.009     57.908      0.000       0.487       0.521
+fixed acidity    -0.0370      0.012     -3.132      0.002      -0.060      -0.014
+sulphates         0.0126      0.012      1.022      0.307      -0.012       0.037
 ==============================================================================
 Omnibus:                       30.083   Durbin-Watson:                   1.597
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               30.621
 Skew:                           0.206   Prob(JB):                     2.24e-07
-Kurtosis:                       3.117   Cond. No.                         87.1
+Kurtosis:                       3.117   Cond. No.                         8.02
 ==============================================================================
 
 Warnings:
@@ -232,23 +228,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.178
 Model:                            OLS   Adj. R-squared:                  0.178
 Method:                 Least Squares   F-statistic:                     433.5
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):          4.39e-171
-Time:                        22:30:28   Log-Likelihood:                -4650.8
-No. Observations:                3994   AIC:                             9308.
-Df Residuals:                    3991   BIC:                             9326.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):          4.39e-171
+Time:                        21:53:03   Log-Likelihood:                 2505.5
+No. Observations:                3994   AIC:                            -5005.
+Df Residuals:                    3991   BIC:                            -4986.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 =================================================================================
                     coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------
-const             2.8859      0.166     17.435      0.000       2.561       3.210
-fixed acidity    -0.0117      0.017     -0.687      0.492      -0.045       0.022
-alcohol           0.2969      0.010     29.241      0.000       0.277       0.317
+const             0.3872      0.007     54.358      0.000       0.373       0.401
+fixed acidity    -0.0074      0.011     -0.687      0.492      -0.028       0.014
+alcohol           0.2870      0.010     29.241      0.000       0.268       0.306
 ==============================================================================
 Omnibus:                       74.822   Durbin-Watson:                   1.587
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):              125.415
 Skew:                           0.159   Prob(JB):                     5.84e-28
-Kurtosis:                       3.808   Cond. No.                         172.
+Kurtosis:                       3.808   Cond. No.                         7.48
 ==============================================================================
 
 Warnings:
@@ -257,23 +253,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.013
 Model:                            OLS   Adj. R-squared:                  0.013
 Method:                 Least Squares   F-statistic:                     26.46
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           3.85e-12
-Time:                        22:30:28   Log-Likelihood:                -5017.0
-No. Observations:                3994   AIC:                         1.004e+04
-Df Residuals:                    3991   BIC:                         1.006e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           3.85e-12
+Time:                        21:53:03   Log-Likelihood:                 2139.3
+No. Observations:                3994   AIC:                            -4273.
+Df Residuals:                    3991   BIC:                            -4254.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ====================================================================================
                        coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------------
-const                6.2676      0.074     84.156      0.000       6.122       6.414
-volatile acidity    -1.2748      0.178     -7.176      0.000      -1.623      -0.926
-citric acid          0.0534      0.157      0.340      0.734      -0.255       0.362
+const                0.5285      0.009     60.286      0.000       0.511       0.546
+volatile acidity    -0.0860      0.012     -7.176      0.000      -0.110      -0.063
+citric acid          0.0042      0.012      0.340      0.734      -0.020       0.028
 ==============================================================================
 Omnibus:                       44.657   Durbin-Watson:                   1.603
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               46.168
 Skew:                           0.249   Prob(JB):                     9.43e-11
-Kurtosis:                       3.169   Cond. No.                         15.6
+Kurtosis:                       3.169   Cond. No.                         8.28
 ==============================================================================
 
 Warnings:
@@ -282,23 +278,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.024
 Model:                            OLS   Adj. R-squared:                  0.024
 Method:                 Least Squares   F-statistic:                     49.79
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           4.39e-22
-Time:                        22:30:29   Log-Likelihood:                -4994.1
-No. Observations:                3994   AIC:                             9994.
-Df Residuals:                    3991   BIC:                         1.001e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           4.39e-22
+Time:                        21:53:03   Log-Likelihood:                 2162.2
+No. Observations:                3994   AIC:                            -4318.
+Df Residuals:                    3991   BIC:                            -4299.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ====================================================================================
                        coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------------
-const                6.3829      0.050    126.994      0.000       6.284       6.481
-volatile acidity    -1.1995      0.176     -6.822      0.000      -1.544      -0.855
-residual sugar      -0.0185      0.003     -6.795      0.000      -0.024      -0.013
+const                0.5460      0.006     87.416      0.000       0.534       0.558
+volatile acidity    -0.0810      0.012     -6.822      0.000      -0.104      -0.058
+residual sugar      -0.0659      0.010     -6.795      0.000      -0.085      -0.047
 ==============================================================================
 Omnibus:                       40.503   Durbin-Watson:                   1.606
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               42.657
 Skew:                           0.224   Prob(JB):                     5.46e-10
-Kurtosis:                       3.237   Cond. No.                         110.
+Kurtosis:                       3.237   Cond. No.                         6.65
 ==============================================================================
 
 Warnings:
@@ -307,23 +303,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.098
 Model:                            OLS   Adj. R-squared:                  0.098
 Method:                 Least Squares   F-statistic:                     217.1
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           3.19e-90
-Time:                        22:30:29   Log-Likelihood:                -4837.1
-No. Observations:                3994   AIC:                             9680.
-Df Residuals:                    3991   BIC:                             9699.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           3.19e-90
+Time:                        21:53:03   Log-Likelihood:                 2319.2
+No. Observations:                3994   AIC:                            -4632.
+Df Residuals:                    3991   BIC:                            -4614.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ====================================================================================
                        coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------------
-const                7.3858      0.073    100.891      0.000       7.242       7.529
-volatile acidity    -1.3867      0.169     -8.219      0.000      -1.718      -1.056
-chlorides          -25.2799      1.303    -19.401      0.000     -27.834     -22.725
+const                0.6451      0.008     79.321      0.000       0.629       0.661
+volatile acidity    -0.0936      0.011     -8.219      0.000      -0.116      -0.071
+chlorides           -0.2317      0.012    -19.401      0.000      -0.255      -0.208
 ==============================================================================
 Omnibus:                       43.070   Durbin-Watson:                   1.581
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               50.003
 Skew:                           0.195   Prob(JB):                     1.39e-11
-Kurtosis:                       3.385   Cond. No.                         105.
+Kurtosis:                       3.385   Cond. No.                         8.03
 ==============================================================================
 
 Warnings:
@@ -332,23 +328,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.013
 Model:                            OLS   Adj. R-squared:                  0.013
 Method:                 Least Squares   F-statistic:                     26.48
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           3.76e-12
-Time:                        22:30:29   Log-Likelihood:                -5017.0
-No. Observations:                3994   AIC:                         1.004e+04
-Df Residuals:                    3991   BIC:                         1.006e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           3.76e-12
+Time:                        21:53:03   Log-Likelihood:                 2139.3
+No. Observations:                3994   AIC:                            -4273.
+Df Residuals:                    3991   BIC:                            -4254.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 =======================================================================================
                           coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------------
-const                   6.2731      0.059    106.072      0.000       6.157       6.389
-volatile acidity       -1.2779      0.177     -7.232      0.000      -1.624      -0.931
-free sulfur dioxide     0.0004      0.001      0.407      0.684      -0.001       0.002
+const                   0.5286      0.008     67.416      0.000       0.513       0.544
+volatile acidity       -0.0863      0.012     -7.232      0.000      -0.110      -0.063
+free sulfur dioxide     0.0047      0.012      0.407      0.684      -0.018       0.028
 ==============================================================================
 Omnibus:                       45.200   Durbin-Watson:                   1.602
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               46.699
 Skew:                           0.252   Prob(JB):                     7.23e-11
-Kurtosis:                       3.163   Cond. No.                         517.
+Kurtosis:                       3.163   Cond. No.                         7.54
 ==============================================================================
 
 Warnings:
@@ -357,50 +353,48 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.039
 Model:                            OLS   Adj. R-squared:                  0.039
 Method:                 Least Squares   F-statistic:                     82.03
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           1.22e-35
-Time:                        22:30:29   Log-Likelihood:                -4962.9
-No. Observations:                3994   AIC:                             9932.
-Df Residuals:                    3991   BIC:                             9951.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           1.22e-35
+Time:                        21:53:03   Log-Likelihood:                 2193.4
+No. Observations:                3994   AIC:                            -4381.
+Df Residuals:                    3991   BIC:                            -4362.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ========================================================================================
                            coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------------
-const                    6.6980      0.062    108.232      0.000       6.577       6.819
-volatile acidity        -1.0709      0.175     -6.112      0.000      -1.414      -0.727
-total sulfur dioxide    -0.0034      0.000    -10.479      0.000      -0.004      -0.003
+const                    0.5901      0.008     72.866      0.000       0.574       0.606
+volatile acidity        -0.0723      0.012     -6.112      0.000      -0.095      -0.049
+total sulfur dioxide    -0.1328      0.013    -10.479      0.000      -0.158      -0.108
 ==============================================================================
 Omnibus:                       34.220   Durbin-Watson:                   1.600
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               38.563
 Skew:                           0.176   Prob(JB):                     4.23e-09
-Kurtosis:                       3.329   Cond. No.                     1.94e+03
+Kurtosis:                       3.329   Cond. No.                         7.78
 ==============================================================================
 
 Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 1.94e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                quality   R-squared:                       0.106
 Model:                            OLS   Adj. R-squared:                  0.106
 Method:                 Least Squares   F-statistic:                     236.6
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           7.94e-98
-Time:                        22:30:29   Log-Likelihood:                -4819.6
-No. Observations:                3994   AIC:                             9645.
-Df Residuals:                    3991   BIC:                             9664.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           7.94e-98
+Time:                        21:53:03   Log-Likelihood:                 2336.7
+No. Observations:                3994   AIC:                            -4667.
+Df Residuals:                    3991   BIC:                            -4649.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ====================================================================================
                        coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------------
-const               96.0756      4.408     21.794      0.000      87.433     104.718
-volatile acidity    -1.3355      0.168     -7.953      0.000      -1.665      -1.006
-density            -90.3287      4.435    -20.369      0.000     -99.023     -81.634
+const                0.6341      0.008     84.082      0.000       0.619       0.649
+volatile acidity    -0.0901      0.011     -7.953      0.000      -0.112      -0.068
+density             -0.2236      0.011    -20.369      0.000      -0.245      -0.202
 ==============================================================================
 Omnibus:                       46.530   Durbin-Watson:                   1.608
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               59.289
 Skew:                           0.175   Prob(JB):                     1.34e-13
-Kurtosis:                       3.483   Cond. No.                         701.
+Kurtosis:                       3.483   Cond. No.                         7.52
 ==============================================================================
 
 Warnings:
@@ -409,23 +403,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.018
 Model:                            OLS   Adj. R-squared:                  0.018
 Method:                 Least Squares   F-statistic:                     36.61
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           1.75e-16
-Time:                        22:30:29   Log-Likelihood:                -5007.0
-No. Observations:                3994   AIC:                         1.002e+04
-Df Residuals:                    3991   BIC:                         1.004e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           1.75e-16
+Time:                        21:53:03   Log-Likelihood:                 2149.3
+No. Observations:                3994   AIC:                            -4293.
+Df Residuals:                    3991   BIC:                            -4274.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ====================================================================================
                        coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------------
-const                4.8843      0.316     15.454      0.000       4.265       5.504
-volatile acidity    -1.2562      0.176     -7.135      0.000      -1.601      -0.911
-pH                   0.4379      0.098      4.491      0.000       0.247       0.629
+const                0.5038      0.008     60.190      0.000       0.487       0.520
+volatile acidity    -0.0848      0.012     -7.135      0.000      -0.108      -0.061
+pH                   0.0533      0.012      4.491      0.000       0.030       0.077
 ==============================================================================
 Omnibus:                       42.959   Durbin-Watson:                   1.598
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               44.460
 Skew:                           0.242   Prob(JB):                     2.22e-10
-Kurtosis:                       3.179   Cond. No.                         83.1
+Kurtosis:                       3.179   Cond. No.                         7.86
 ==============================================================================
 
 Warnings:
@@ -434,23 +428,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.013
 Model:                            OLS   Adj. R-squared:                  0.013
 Method:                 Least Squares   F-statistic:                     26.80
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           2.75e-12
-Time:                        22:30:29   Log-Likelihood:                -5016.7
-No. Observations:                3994   AIC:                         1.004e+04
-Df Residuals:                    3991   BIC:                         1.006e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           2.75e-12
+Time:                        21:53:03   Log-Likelihood:                 2139.6
+No. Observations:                3994   AIC:                            -4273.
+Df Residuals:                    3991   BIC:                            -4254.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ====================================================================================
                        coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------------
-const                6.2278      0.082     75.751      0.000       6.067       6.389
-volatile acidity    -1.2788      0.176     -7.248      0.000      -1.625      -0.933
-sulphates            0.1209      0.136      0.888      0.374      -0.146       0.388
+const                0.5254      0.008     62.474      0.000       0.509       0.542
+volatile acidity    -0.0863      0.012     -7.248      0.000      -0.110      -0.063
+sulphates            0.0109      0.012      0.888      0.374      -0.013       0.035
 ==============================================================================
 Omnibus:                       45.899   Durbin-Watson:                   1.601
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               47.503
 Skew:                           0.253   Prob(JB):                     4.84e-11
-Kurtosis:                       3.171   Cond. No.                         15.8
+Kurtosis:                       3.171   Cond. No.                         7.91
 ==============================================================================
 
 Warnings:
@@ -459,23 +453,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.206
 Model:                            OLS   Adj. R-squared:                  0.206
 Method:                 Least Squares   F-statistic:                     517.5
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):          1.53e-200
-Time:                        22:30:29   Log-Likelihood:                -4582.9
-No. Observations:                3994   AIC:                             9172.
-Df Residuals:                    3991   BIC:                             9191.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):          1.53e-200
+Time:                        21:53:03   Log-Likelihood:                 2573.4
+No. Observations:                3994   AIC:                            -5141.
+Df Residuals:                    3991   BIC:                            -5122.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ====================================================================================
                        coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------------
-const                3.1459      0.110     28.633      0.000       2.930       3.361
-volatile acidity    -1.8757      0.159    -11.768      0.000      -2.188      -1.563
-alcohol              0.3117      0.010     31.134      0.000       0.292       0.331
+const                0.4357      0.006     71.665      0.000       0.424       0.448
+volatile acidity    -0.1266      0.011    -11.768      0.000      -0.148      -0.106
+alcohol              0.3013      0.010     31.134      0.000       0.282       0.320
 ==============================================================================
 Omnibus:                       68.767   Durbin-Watson:                   1.598
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):              117.928
 Skew:                           0.132   Prob(JB):                     2.47e-26
-Kurtosis:                       3.800   Cond. No.                         145.
+Kurtosis:                       3.800   Cond. No.                         6.82
 ==============================================================================
 
 Warnings:
@@ -484,23 +478,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.013
 Model:                            OLS   Adj. R-squared:                  0.013
 Method:                 Least Squares   F-statistic:                     27.14
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           1.97e-12
-Time:                        22:30:29   Log-Likelihood:                -5016.3
-No. Observations:                3994   AIC:                         1.004e+04
-Df Residuals:                    3991   BIC:                         1.006e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           1.97e-12
+Time:                        21:53:03   Log-Likelihood:                 2139.9
+No. Observations:                3994   AIC:                            -4274.
+Df Residuals:                    3991   BIC:                            -4255.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ==================================================================================
                      coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------
-const              6.0063      0.055    109.485      0.000       5.899       6.114
-citric acid        0.2107      0.156      1.350      0.177      -0.095       0.517
-residual sugar    -0.0198      0.003     -7.270      0.000      -0.025      -0.014
+const              0.5026      0.007     74.647      0.000       0.489       0.516
+citric acid        0.0165      0.012      1.350      0.177      -0.007       0.040
+residual sugar    -0.0707      0.010     -7.270      0.000      -0.090      -0.052
 ==============================================================================
 Omnibus:                       26.477   Durbin-Watson:                   1.602
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               27.530
 Skew:                           0.177   Prob(JB):                     1.05e-06
-Kurtosis:                       3.199   Cond. No.                         99.0
+Kurtosis:                       3.199   Cond. No.                         6.97
 ==============================================================================
 
 Warnings:
@@ -509,23 +503,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.084
 Model:                            OLS   Adj. R-squared:                  0.083
 Method:                 Least Squares   F-statistic:                     182.2
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           1.99e-76
-Time:                        22:30:29   Log-Likelihood:                -4868.9
-No. Observations:                3994   AIC:                             9744.
-Df Residuals:                    3991   BIC:                             9763.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           1.99e-76
+Time:                        21:53:03   Log-Likelihood:                 2287.4
+No. Observations:                3994   AIC:                            -4569.
+Df Residuals:                    3991   BIC:                            -4550.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ===============================================================================
                   coef    std err          t      P>|t|      [0.025      0.975]
 -------------------------------------------------------------------------------
-const           6.9175      0.074     93.520      0.000       6.772       7.063
-citric acid     0.2799      0.151      1.859      0.063      -0.015       0.575
-chlorides     -25.0165      1.313    -19.046      0.000     -27.592     -22.441
+const           0.5909      0.008     71.897      0.000       0.575       0.607
+citric acid     0.0219      0.012      1.859      0.063      -0.001       0.045
+chlorides      -0.2293      0.012    -19.046      0.000      -0.253      -0.206
 ==============================================================================
 Omnibus:                       34.800   Durbin-Watson:                   1.575
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               40.172
 Skew:                           0.170   Prob(JB):                     1.89e-09
-Kurtosis:                       3.355   Cond. No.                         107.
+Kurtosis:                       3.355   Cond. No.                         7.97
 ==============================================================================
 
 Warnings:
@@ -534,23 +528,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.000
 Model:                            OLS   Adj. R-squared:                 -0.000
 Method:                 Least Squares   F-statistic:                    0.9477
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):              0.388
-Time:                        22:30:29   Log-Likelihood:                -5042.4
-No. Observations:                3994   AIC:                         1.009e+04
-Df Residuals:                    3991   BIC:                         1.011e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):              0.388
+Time:                        21:53:03   Log-Likelihood:                 2113.9
+No. Observations:                3994   AIC:                            -4222.
+Df Residuals:                    3991   BIC:                            -4203.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 =======================================================================================
                           coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------------
-const                   5.8689      0.059     99.132      0.000       5.753       5.985
-citric acid             0.1763      0.158      1.118      0.264      -0.133       0.486
-free sulfur dioxide     0.0006      0.001      0.701      0.484      -0.001       0.002
+const                   0.4813      0.008     62.584      0.000       0.466       0.496
+citric acid             0.0138      0.012      1.118      0.264      -0.010       0.038
+free sulfur dioxide     0.0083      0.012      0.701      0.484      -0.015       0.031
 ==============================================================================
 Omnibus:                       27.948   Durbin-Watson:                   1.599
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               28.360
 Skew:                           0.201   Prob(JB):                     6.95e-07
-Kurtosis:                       3.097   Cond. No.                         463.
+Kurtosis:                       3.097   Cond. No.                         7.31
 ==============================================================================
 
 Warnings:
@@ -559,50 +553,48 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.032
 Model:                            OLS   Adj. R-squared:                  0.031
 Method:                 Least Squares   F-statistic:                     65.54
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           9.89e-29
-Time:                        22:30:29   Log-Likelihood:                -4978.8
-No. Observations:                3994   AIC:                             9964.
-Df Residuals:                    3991   BIC:                             9982.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           9.89e-29
+Time:                        21:53:03   Log-Likelihood:                 2177.5
+No. Observations:                3994   AIC:                            -4349.
+Df Residuals:                    3991   BIC:                            -4330.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ========================================================================================
                            coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------------
-const                    6.3397      0.065     97.039      0.000       6.212       6.468
-citric acid              0.3604      0.155      2.319      0.020       0.056       0.665
-total sulfur dioxide    -0.0037      0.000    -11.385      0.000      -0.004      -0.003
+const                    0.5496      0.008     65.145      0.000       0.533       0.566
+citric acid              0.0282      0.012      2.319      0.020       0.004       0.052
+total sulfur dioxide    -0.1446      0.013    -11.385      0.000      -0.170      -0.120
 ==============================================================================
 Omnibus:                       25.169   Durbin-Watson:                   1.596
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               29.127
 Skew:                           0.133   Prob(JB):                     4.73e-07
-Kurtosis:                       3.323   Cond. No.                     1.75e+03
+Kurtosis:                       3.323   Cond. No.                         7.95
 ==============================================================================
 
 Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 1.75e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                quality   R-squared:                       0.093
 Model:                            OLS   Adj. R-squared:                  0.093
 Method:                 Least Squares   F-statistic:                     205.4
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           1.24e-85
-Time:                        22:30:29   Log-Likelihood:                -4847.7
-No. Observations:                3994   AIC:                             9701.
-Df Residuals:                    3991   BIC:                             9720.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           1.24e-85
+Time:                        21:53:03   Log-Likelihood:                 2308.6
+No. Observations:                3994   AIC:                            -4611.
+Df Residuals:                    3991   BIC:                            -4592.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ===============================================================================
                   coef    std err          t      P>|t|      [0.025      0.975]
 -------------------------------------------------------------------------------
-const          95.7992      4.445     21.554      0.000      87.085     104.513
-citric acid     0.3855      0.150      2.570      0.010       0.091       0.680
-density       -90.5313      4.475    -20.230      0.000     -99.305     -81.758
+const           0.5789      0.008     76.193      0.000       0.564       0.594
+citric acid     0.0302      0.012      2.570      0.010       0.007       0.053
+density        -0.2241      0.011    -20.230      0.000      -0.246      -0.202
 ==============================================================================
 Omnibus:                       42.270   Durbin-Watson:                   1.599
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               55.251
 Skew:                           0.153   Prob(JB):                     1.01e-12
-Kurtosis:                       3.488   Cond. No.                         708.
+Kurtosis:                       3.488   Cond. No.                         7.49
 ==============================================================================
 
 Warnings:
@@ -611,23 +603,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.006
 Model:                            OLS   Adj. R-squared:                  0.006
 Method:                 Least Squares   F-statistic:                     12.39
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           4.33e-06
-Time:                        22:30:29   Log-Likelihood:                -5031.0
-No. Observations:                3994   AIC:                         1.007e+04
-Df Residuals:                    3991   BIC:                         1.009e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           4.33e-06
+Time:                        21:53:03   Log-Likelihood:                 2125.3
+No. Observations:                3994   AIC:                            -4245.
+Df Residuals:                    3991   BIC:                            -4226.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ===============================================================================
                   coef    std err          t      P>|t|      [0.025      0.975]
 -------------------------------------------------------------------------------
-const           4.3461      0.323     13.445      0.000       3.712       4.980
-citric acid     0.2598      0.157      1.650      0.099      -0.049       0.569
-pH              0.4761      0.099      4.834      0.000       0.283       0.669
+const           0.4533      0.009     50.400      0.000       0.436       0.471
+citric acid     0.0204      0.012      1.650      0.099      -0.004       0.045
+pH              0.0579      0.012      4.834      0.000       0.034       0.081
 ==============================================================================
 Omnibus:                       26.983   Durbin-Watson:                   1.593
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               27.440
 Skew:                           0.193   Prob(JB):                     1.10e-06
-Kurtosis:                       3.125   Cond. No.                         84.7
+Kurtosis:                       3.125   Cond. No.                         8.37
 ==============================================================================
 
 Warnings:
@@ -636,23 +628,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.001
 Model:                            OLS   Adj. R-squared:                  0.000
 Method:                 Least Squares   F-statistic:                     1.145
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):              0.318
-Time:                        22:30:29   Log-Likelihood:                -5042.2
-No. Observations:                3994   AIC:                         1.009e+04
-Df Residuals:                    3991   BIC:                         1.011e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):              0.318
+Time:                        21:53:03   Log-Likelihood:                 2114.1
+No. Observations:                3994   AIC:                            -4222.
+Df Residuals:                    3991   BIC:                            -4203.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ===============================================================================
                   coef    std err          t      P>|t|      [0.025      0.975]
 -------------------------------------------------------------------------------
-const           5.8290      0.082     71.319      0.000       5.669       5.989
-citric acid     0.1758      0.158      1.116      0.265      -0.133       0.485
-sulphates       0.1291      0.137      0.941      0.347      -0.140       0.398
+const           0.4792      0.008     57.057      0.000       0.463       0.496
+citric acid     0.0138      0.012      1.116      0.265      -0.010       0.038
+sulphates       0.0116      0.012      0.941      0.347      -0.013       0.036
 ==============================================================================
 Omnibus:                       28.117   Durbin-Watson:                   1.598
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               28.563
 Skew:                           0.200   Prob(JB):                     6.27e-07
-Kurtosis:                       3.110   Cond. No.                         14.2
+Kurtosis:                       3.110   Cond. No.                         7.77
 ==============================================================================
 
 Warnings:
@@ -661,23 +653,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.179
 Model:                            OLS   Adj. R-squared:                  0.178
 Method:                 Least Squares   F-statistic:                     434.6
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):          1.81e-171
-Time:                        22:30:29   Log-Likelihood:                -4649.9
-No. Observations:                3994   AIC:                             9306.
-Df Residuals:                    3991   BIC:                             9325.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):          1.81e-171
+Time:                        21:53:03   Log-Likelihood:                 2506.4
+No. Observations:                3994   AIC:                            -5007.
+Df Residuals:                    3991   BIC:                            -4988.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ===============================================================================
                   coef    std err          t      P>|t|      [0.025      0.975]
 -------------------------------------------------------------------------------
-const           2.7292      0.117     23.244      0.000       2.499       2.959
-citric acid     0.2137      0.142      1.500      0.134      -0.066       0.493
-alcohol         0.2977      0.010     29.452      0.000       0.278       0.318
+const           0.3752      0.007     55.159      0.000       0.362       0.389
+citric acid     0.0167      0.011      1.500      0.134      -0.005       0.039
+alcohol         0.2878      0.010     29.452      0.000       0.269       0.307
 ==============================================================================
 Omnibus:                       73.701   Durbin-Watson:                   1.588
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):              124.768
 Skew:                           0.152   Prob(JB):                     8.07e-28
-Kurtosis:                       3.811   Cond. No.                         136.
+Kurtosis:                       3.811   Cond. No.                         7.31
 ==============================================================================
 
 Warnings:
@@ -686,23 +678,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.084
 Model:                            OLS   Adj. R-squared:                  0.083
 Method:                 Least Squares   F-statistic:                     182.7
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           1.21e-76
-Time:                        22:30:29   Log-Likelihood:                -4868.4
-No. Observations:                3994   AIC:                             9743.
-Df Residuals:                    3991   BIC:                             9762.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           1.21e-76
+Time:                        21:53:03   Log-Likelihood:                 2287.9
+No. Observations:                3994   AIC:                            -4570.
+Df Residuals:                    3991   BIC:                            -4551.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ==================================================================================
                      coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------
-const              7.0064      0.057    122.669      0.000       6.894       7.118
-residual sugar    -0.0058      0.003     -2.108      0.035      -0.011      -0.000
-chlorides        -24.1003      1.371    -17.575      0.000     -26.789     -21.412
+const              0.6029      0.006     96.825      0.000       0.591       0.615
+residual sugar    -0.0206      0.010     -2.108      0.035      -0.040      -0.001
+chlorides         -0.2209      0.013    -17.575      0.000      -0.246      -0.196
 ==============================================================================
 Omnibus:                       36.381   Durbin-Watson:                   1.576
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               42.900
 Skew:                           0.168   Prob(JB):                     4.83e-10
-Kurtosis:                       3.381   Cond. No.                         858.
+Kurtosis:                       3.381   Cond. No.                         7.43
 ==============================================================================
 
 Warnings:
@@ -711,23 +703,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.016
 Model:                            OLS   Adj. R-squared:                  0.016
 Method:                 Least Squares   F-statistic:                     32.67
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           8.45e-15
-Time:                        22:30:29   Log-Likelihood:                -5010.9
-No. Observations:                3994   AIC:                         1.003e+04
-Df Residuals:                    3991   BIC:                         1.005e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           8.45e-15
+Time:                        21:53:03   Log-Likelihood:                 2145.4
+No. Observations:                3994   AIC:                            -4285.
+Df Residuals:                    3991   BIC:                            -4266.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 =======================================================================================
                           coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------------
-const                   5.9786      0.035    172.716      0.000       5.911       6.046
-residual sugar         -0.0234      0.003     -8.043      0.000      -0.029      -0.018
-free sulfur dioxide     0.0034      0.001      3.570      0.000       0.002       0.005
+const                   0.4952      0.005     90.579      0.000       0.485       0.506
+residual sugar         -0.0833      0.010     -8.043      0.000      -0.104      -0.063
+free sulfur dioxide     0.0444      0.012      3.570      0.000       0.020       0.069
 ==============================================================================
 Omnibus:                       29.297   Durbin-Watson:                   1.600
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               29.973
 Skew:                           0.198   Prob(JB):                     3.10e-07
-Kurtosis:                       3.151   Cond. No.                         99.2
+Kurtosis:                       3.151   Cond. No.                         6.95
 ==============================================================================
 
 Warnings:
@@ -736,23 +728,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.033
 Model:                            OLS   Adj. R-squared:                  0.032
 Method:                 Least Squares   F-statistic:                     67.07
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           2.24e-29
-Time:                        22:30:29   Log-Likelihood:                -4977.3
-No. Observations:                3994   AIC:                             9961.
-Df Residuals:                    3991   BIC:                             9979.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           2.24e-29
+Time:                        21:53:03   Log-Likelihood:                 2179.0
+No. Observations:                3994   AIC:                            -4352.
+Df Residuals:                    3991   BIC:                            -4333.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ========================================================================================
                            coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------------
-const                    6.4421      0.046    138.841      0.000       6.351       6.533
-residual sugar          -0.0086      0.003     -2.891      0.004      -0.014      -0.003
-total sulfur dioxide    -0.0032      0.000     -8.981      0.000      -0.004      -0.003
+const                    0.5616      0.007     84.440      0.000       0.549       0.575
+residual sugar          -0.0306      0.011     -2.891      0.004      -0.051      -0.010
+total sulfur dioxide    -0.1249      0.014     -8.981      0.000      -0.152      -0.098
 ==============================================================================
 Omnibus:                       26.650   Durbin-Watson:                   1.597
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               31.326
 Skew:                           0.134   Prob(JB):                     1.58e-07
-Kurtosis:                       3.342   Cond. No.                         499.
+Kurtosis:                       3.342   Cond. No.                         8.24
 ==============================================================================
 
 Warnings:
@@ -761,50 +753,48 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.163
 Model:                            OLS   Adj. R-squared:                  0.163
 Method:                 Least Squares   F-statistic:                     389.8
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):          2.40e-155
-Time:                        22:30:29   Log-Likelihood:                -4687.0
-No. Observations:                3994   AIC:                             9380.
-Df Residuals:                    3991   BIC:                             9399.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):          2.40e-155
+Time:                        21:53:03   Log-Likelihood:                 2469.3
+No. Observations:                3994   AIC:                            -4933.
+Df Residuals:                    3991   BIC:                            -4914.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ==================================================================================
                      coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------
-const            219.7178      7.975     27.551      0.000     204.082     235.353
-residual sugar     0.0871      0.005     18.479      0.000       0.078       0.096
-density         -215.6479      8.050    -26.789      0.000    -231.430    -199.866
+const              0.6503      0.006    106.352      0.000       0.638       0.662
+residual sugar     0.3105      0.017     18.479      0.000       0.278       0.343
+density           -0.5337      0.020    -26.789      0.000      -0.573      -0.495
 ==============================================================================
 Omnibus:                       65.173   Durbin-Watson:                   1.565
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               91.017
 Skew:                           0.198   Prob(JB):                     1.72e-20
-Kurtosis:                       3.625   Cond. No.                     7.45e+03
+Kurtosis:                       3.625   Cond. No.                         14.1
 ==============================================================================
 
 Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 7.45e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                quality   R-squared:                       0.016
 Model:                            OLS   Adj. R-squared:                  0.015
 Method:                 Least Squares   F-statistic:                     31.75
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           2.08e-14
-Time:                        22:30:29   Log-Likelihood:                -5011.8
-No. Observations:                3994   AIC:                         1.003e+04
-Df Residuals:                    3991   BIC:                         1.005e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           2.08e-14
+Time:                        21:53:03   Log-Likelihood:                 2144.5
+No. Observations:                3994   AIC:                            -4283.
+Df Residuals:                    3991   BIC:                            -4264.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ==================================================================================
                      coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------
-const              5.0114      0.322     15.558      0.000       4.380       5.643
-residual sugar    -0.0179      0.003     -6.422      0.000      -0.023      -0.012
-pH                 0.3296      0.100      3.307      0.001       0.134       0.525
+const              0.4889      0.007     66.508      0.000       0.475       0.503
+residual sugar    -0.0637      0.010     -6.422      0.000      -0.083      -0.044
+pH                 0.0401      0.012      3.307      0.001       0.016       0.064
 ==============================================================================
 Omnibus:                       27.448   Durbin-Watson:                   1.597
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               28.614
 Skew:                           0.180   Prob(JB):                     6.12e-07
-Kurtosis:                       3.205   Cond. No.                         214.
+Kurtosis:                       3.205   Cond. No.                         7.39
 ==============================================================================
 
 Warnings:
@@ -813,23 +803,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.013
 Model:                            OLS   Adj. R-squared:                  0.013
 Method:                 Least Squares   F-statistic:                     26.49
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           3.71e-12
-Time:                        22:30:29   Log-Likelihood:                -5017.0
-No. Observations:                3994   AIC:                         1.004e+04
-Df Residuals:                    3991   BIC:                         1.006e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           3.71e-12
+Time:                        21:53:03   Log-Likelihood:                 2139.3
+No. Observations:                3994   AIC:                            -4273.
+Df Residuals:                    3991   BIC:                            -4254.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ==================================================================================
                      coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------
-const              6.0248      0.070     86.361      0.000       5.888       6.162
-residual sugar    -0.0197      0.003     -7.206      0.000      -0.025      -0.014
-sulphates          0.1015      0.136      0.746      0.456      -0.165       0.368
+const              0.5059      0.007     72.776      0.000       0.492       0.520
+residual sugar    -0.0701      0.010     -7.206      0.000      -0.089      -0.051
+sulphates          0.0091      0.012      0.746      0.456      -0.015       0.033
 ==============================================================================
 Omnibus:                       27.271   Durbin-Watson:                   1.601
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               28.362
 Skew:                           0.181   Prob(JB):                     6.94e-07
-Kurtosis:                       3.200   Cond. No.                         91.5
+Kurtosis:                       3.200   Cond. No.                         7.09
 ==============================================================================
 
 Warnings:
@@ -838,23 +828,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.190
 Model:                            OLS   Adj. R-squared:                  0.190
 Method:                 Least Squares   F-statistic:                     469.3
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):          8.78e-184
-Time:                        22:30:29   Log-Likelihood:                -4621.5
-No. Observations:                3994   AIC:                             9249.
-Df Residuals:                    3991   BIC:                             9268.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):          8.78e-184
+Time:                        21:53:03   Log-Likelihood:                 2534.8
+No. Observations:                3994   AIC:                            -5064.
+Df Residuals:                    3991   BIC:                            -5045.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ==================================================================================
                      coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------
-const              2.1930      0.133     16.523      0.000       1.933       2.453
-residual sugar     0.0219      0.003      7.707      0.000       0.016       0.027
-alcohol            0.3417      0.012     29.576      0.000       0.319       0.364
+const              0.3461      0.006     54.286      0.000       0.334       0.359
+residual sugar     0.0781      0.010      7.707      0.000       0.058       0.098
+alcohol            0.3303      0.011     29.576      0.000       0.308       0.352
 ==============================================================================
 Omnibus:                       68.136   Durbin-Watson:                   1.591
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):              111.594
 Skew:                           0.149   Prob(JB):                     5.86e-25
-Kurtosis:                       3.763   Cond. No.                         138.
+Kurtosis:                       3.763   Cond. No.                         7.84
 ==============================================================================
 
 Warnings:
@@ -863,77 +853,73 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.087
 Model:                            OLS   Adj. R-squared:                  0.086
 Method:                 Least Squares   F-statistic:                     189.5
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           2.33e-79
-Time:                        22:30:29   Log-Likelihood:                -4862.1
-No. Observations:                3994   AIC:                             9730.
-Df Residuals:                    3991   BIC:                             9749.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           2.33e-79
+Time:                        21:53:03   Log-Likelihood:                 2294.2
+No. Observations:                3994   AIC:                            -4582.
+Df Residuals:                    3991   BIC:                            -4563.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 =======================================================================================
                           coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------------
-const                   6.9187      0.061    113.919      0.000       6.800       7.038
-chlorides             -25.8645      1.330    -19.451      0.000     -28.472     -23.258
-free sulfur dioxide     0.0036      0.001      4.122      0.000       0.002       0.005
+const                   0.5854      0.007     80.998      0.000       0.571       0.600
+chlorides              -0.2371      0.012    -19.451      0.000      -0.261      -0.213
+free sulfur dioxide     0.0469      0.011      4.122      0.000       0.025       0.069
 ==============================================================================
 Omnibus:                       35.255   Durbin-Watson:                   1.572
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               38.228
 Skew:                           0.193   Prob(JB):                     5.00e-09
-Kurtosis:                       3.284   Cond. No.                     3.90e+03
+Kurtosis:                       3.284   Cond. No.                         7.38
 ==============================================================================
 
 Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 3.9e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                quality   R-squared:                       0.088
 Model:                            OLS   Adj. R-squared:                  0.087
 Method:                 Least Squares   F-statistic:                     192.1
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           2.26e-80
-Time:                        22:30:29   Log-Likelihood:                -4859.8
-No. Observations:                3994   AIC:                             9726.
-Df Residuals:                    3991   BIC:                             9744.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           2.26e-80
+Time:                        21:53:03   Log-Likelihood:                 2296.5
+No. Observations:                3994   AIC:                            -4587.
+Df Residuals:                    3991   BIC:                            -4568.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ========================================================================================
                            coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------------
-const                    7.1157      0.062    115.213      0.000       6.995       7.237
-chlorides              -22.4276      1.416    -15.835      0.000     -25.204     -19.651
-total sulfur dioxide    -0.0016      0.000     -4.656      0.000      -0.002      -0.001
+const                    0.6206      0.007     83.263      0.000       0.606       0.635
+chlorides               -0.2056      0.013    -15.835      0.000      -0.231      -0.180
+total sulfur dioxide    -0.0618      0.013     -4.656      0.000      -0.088      -0.036
 ==============================================================================
 Omnibus:                       36.473   Durbin-Watson:                   1.576
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               45.830
 Skew:                           0.147   Prob(JB):                     1.12e-10
-Kurtosis:                       3.434   Cond. No.                     1.57e+04
+Kurtosis:                       3.434   Cond. No.                         8.74
 ==============================================================================
 
 Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 1.57e+04. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                quality   R-squared:                       0.116
 Model:                            OLS   Adj. R-squared:                  0.115
 Method:                 Least Squares   F-statistic:                     261.4
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):          2.03e-107
-Time:                        22:30:29   Log-Likelihood:                -4797.5
-No. Observations:                3994   AIC:                             9601.
-Df Residuals:                    3991   BIC:                             9620.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):          2.03e-107
+Time:                        21:53:03   Log-Likelihood:                 2358.8
+No. Observations:                3994   AIC:                            -4712.
+Df Residuals:                    3991   BIC:                            -4693.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-const         68.7802      5.063     13.585      0.000      58.854      78.707
-chlorides    -15.6064      1.499    -10.410      0.000     -18.546     -12.667
-density      -62.5544      5.127    -12.202      0.000     -72.605     -52.503
+const          0.6304      0.007     96.758      0.000       0.618       0.643
+chlorides     -0.1431      0.014    -10.410      0.000      -0.170      -0.116
+density       -0.1548      0.013    -12.202      0.000      -0.180      -0.130
 ==============================================================================
 Omnibus:                       51.924   Durbin-Watson:                   1.586
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               71.860
 Skew:                           0.164   Prob(JB):                     2.49e-16
-Kurtosis:                       3.570   Cond. No.                         803.
+Kurtosis:                       3.570   Cond. No.                         9.28
 ==============================================================================
 
 Warnings:
@@ -942,23 +928,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.087
 Model:                            OLS   Adj. R-squared:                  0.086
 Method:                 Least Squares   F-statistic:                     189.2
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           3.04e-79
-Time:                        22:30:29   Log-Likelihood:                -4862.4
-No. Observations:                3994   AIC:                             9731.
-Df Residuals:                    3991   BIC:                             9750.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           3.04e-79
+Time:                        21:53:03   Log-Likelihood:                 2293.9
+No. Observations:                3994   AIC:                            -4582.
+Df Residuals:                    3991   BIC:                            -4563.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-const          5.7783      0.308     18.778      0.000       5.175       6.382
-chlorides    -24.7001      1.312    -18.828      0.000     -27.272     -22.128
-pH             0.3816      0.094      4.057      0.000       0.197       0.566
+const          0.5772      0.009     67.896      0.000       0.561       0.594
+chlorides     -0.2264      0.012    -18.828      0.000      -0.250      -0.203
+pH             0.0464      0.011      4.057      0.000       0.024       0.069
 ==============================================================================
 Omnibus:                       38.272   Durbin-Watson:                   1.568
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               45.133
 Skew:                           0.174   Prob(JB):                     1.58e-10
-Kurtosis:                       3.387   Cond. No.                         340.
+Kurtosis:                       3.387   Cond. No.                         8.25
 ==============================================================================
 
 Warnings:
@@ -967,23 +953,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.084
 Model:                            OLS   Adj. R-squared:                  0.084
 Method:                 Least Squares   F-statistic:                     183.6
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           5.18e-77
-Time:                        22:30:29   Log-Likelihood:                -4867.5
-No. Observations:                3994   AIC:                             9741.
-Df Residuals:                    3991   BIC:                             9760.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           5.18e-77
+Time:                        21:53:03   Log-Likelihood:                 2288.8
+No. Observations:                3994   AIC:                            -4572.
+Df Residuals:                    3991   BIC:                            -4553.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-const          6.8583      0.082     83.443      0.000       6.697       7.019
-chlorides    -25.1780      1.316    -19.134      0.000     -27.758     -22.598
-sulphates      0.3258      0.131      2.480      0.013       0.068       0.583
+const          0.5879      0.008     72.368      0.000       0.572       0.604
+chlorides     -0.2308      0.012    -19.134      0.000      -0.254      -0.207
+sulphates      0.0293      0.012      2.480      0.013       0.006       0.053
 ==============================================================================
 Omnibus:                       36.837   Durbin-Watson:                   1.570
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               42.201
 Skew:                           0.179   Prob(JB):                     6.86e-10
-Kurtosis:                       3.354   Cond. No.                         113.
+Kurtosis:                       3.354   Cond. No.                         7.86
 ==============================================================================
 
 Warnings:
@@ -992,50 +978,48 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.182
 Model:                            OLS   Adj. R-squared:                  0.182
 Method:                 Least Squares   F-statistic:                     445.0
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):          3.42e-175
-Time:                        22:30:29   Log-Likelihood:                -4641.3
-No. Observations:                3994   AIC:                             9289.
-Df Residuals:                    3991   BIC:                             9307.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):          3.42e-175
+Time:                        21:53:03   Log-Likelihood:                 2515.0
+No. Observations:                3994   AIC:                            -5024.
+Df Residuals:                    3991   BIC:                            -5005.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-const          3.3946      0.172     19.681      0.000       3.056       3.733
-chlorides     -6.5863      1.494     -4.409      0.000      -9.515      -3.658
-alcohol        0.2677      0.012     22.037      0.000       0.244       0.292
+const          0.4230      0.010     42.497      0.000       0.404       0.443
+chlorides     -0.0604      0.014     -4.409      0.000      -0.087      -0.034
+alcohol        0.2588      0.012     22.037      0.000       0.236       0.282
 ==============================================================================
 Omnibus:                       78.449   Durbin-Watson:                   1.585
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):              134.702
 Skew:                           0.159   Prob(JB):                     5.62e-30
-Kurtosis:                       3.841   Cond. No.                     1.31e+03
+Kurtosis:                       3.841   Cond. No.                         10.8
 ==============================================================================
 
 Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 1.31e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                quality   R-squared:                       0.055
 Model:                            OLS   Adj. R-squared:                  0.054
 Method:                 Least Squares   F-statistic:                     115.1
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           2.49e-49
-Time:                        22:30:29   Log-Likelihood:                -4931.3
-No. Observations:                3994   AIC:                             9869.
-Df Residuals:                    3991   BIC:                             9888.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           2.49e-49
+Time:                        21:53:03   Log-Likelihood:                 2225.0
+No. Observations:                3994   AIC:                            -4444.
+Df Residuals:                    3991   BIC:                            -4425.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ========================================================================================
                            coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------------
-const                    6.4052      0.046    139.161      0.000       6.315       6.495
-free sulfur dioxide      0.0113      0.001     10.075      0.000       0.009       0.013
-total sulfur dioxide    -0.0062      0.000    -15.151      0.000      -0.007      -0.005
+const                    0.5496      0.007     82.233      0.000       0.536       0.563
+free sulfur dioxide      0.1469      0.015     10.075      0.000       0.118       0.175
+total sulfur dioxide    -0.2418      0.016    -15.151      0.000      -0.273      -0.210
 ==============================================================================
 Omnibus:                       29.223   Durbin-Watson:                   1.584
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               30.829
 Skew:                           0.182   Prob(JB):                     2.02e-07
-Kurtosis:                       3.230   Cond. No.                         516.
+Kurtosis:                       3.230   Cond. No.                         10.7
 ==============================================================================
 
 Warnings:
@@ -1044,50 +1028,48 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.107
 Model:                            OLS   Adj. R-squared:                  0.107
 Method:                 Least Squares   F-statistic:                     239.3
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           7.32e-99
-Time:                        22:30:29   Log-Likelihood:                -4817.2
-No. Observations:                3994   AIC:                             9640.
-Df Residuals:                    3991   BIC:                             9659.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           7.32e-99
+Time:                        21:53:03   Log-Likelihood:                 2339.1
+No. Observations:                3994   AIC:                            -4672.
+Df Residuals:                    3991   BIC:                            -4653.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 =======================================================================================
                           coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------------
-const                 108.0924      4.674     23.125      0.000      98.928     117.257
-free sulfur dioxide     0.0075      0.001      8.252      0.000       0.006       0.009
-density              -103.0367      4.714    -21.858      0.000    -112.278     -93.795
+const                   0.5665      0.006     90.298      0.000       0.554       0.579
+free sulfur dioxide     0.0973      0.012      8.252      0.000       0.074       0.120
+density                -0.2550      0.012    -21.858      0.000      -0.278      -0.232
 ==============================================================================
 Omnibus:                       48.688   Durbin-Watson:                   1.594
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               56.159
 Skew:                           0.214   Prob(JB):                     6.38e-13
-Kurtosis:                       3.392   Cond. No.                     1.97e+04
+Kurtosis:                       3.392   Cond. No.                         7.53
 ==============================================================================
 
 Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 1.97e+04. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                quality   R-squared:                       0.006
 Model:                            OLS   Adj. R-squared:                  0.005
 Method:                 Least Squares   F-statistic:                     11.47
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           1.08e-05
-Time:                        22:30:29   Log-Likelihood:                -5031.9
-No. Observations:                3994   AIC:                         1.007e+04
-Df Residuals:                    3991   BIC:                         1.009e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           1.08e-05
+Time:                        21:53:03   Log-Likelihood:                 2124.4
+No. Observations:                3994   AIC:                            -4243.
+Df Residuals:                    3991   BIC:                            -4224.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 =======================================================================================
                           coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------------
-const                   4.4424      0.315     14.081      0.000       3.824       5.061
-free sulfur dioxide     0.0008      0.001      0.943      0.346      -0.001       0.003
-pH                      0.4631      0.098      4.720      0.000       0.271       0.655
+const                   0.4591      0.008     56.873      0.000       0.443       0.475
+free sulfur dioxide     0.0110      0.012      0.943      0.346      -0.012       0.034
+pH                      0.0563      0.012      4.720      0.000       0.033       0.080
 ==============================================================================
 Omnibus:                       27.758   Durbin-Watson:                   1.592
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               28.188
 Skew:                           0.198   Prob(JB):                     7.57e-07
-Kurtosis:                       3.109   Cond. No.                         929.
+Kurtosis:                       3.109   Cond. No.                         7.62
 ==============================================================================
 
 Warnings:
@@ -1096,23 +1078,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.000
 Model:                            OLS   Adj. R-squared:                 -0.000
 Method:                 Least Squares   F-statistic:                    0.8026
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):              0.448
-Time:                        22:30:29   Log-Likelihood:                -5042.5
-No. Observations:                3994   AIC:                         1.009e+04
-Df Residuals:                    3991   BIC:                         1.011e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):              0.448
+Time:                        21:53:03   Log-Likelihood:                 2113.8
+No. Observations:                3994   AIC:                            -4222.
+Df Residuals:                    3991   BIC:                            -4203.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 =======================================================================================
                           coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------------
-const                   5.8600      0.073     80.504      0.000       5.717       6.003
-free sulfur dioxide     0.0007      0.001      0.749      0.454      -0.001       0.002
-sulphates               0.1342      0.137      0.979      0.328      -0.135       0.403
+const                   0.4818      0.008     61.240      0.000       0.466       0.497
+free sulfur dioxide     0.0088      0.012      0.749      0.454      -0.014       0.032
+sulphates               0.0121      0.012      0.979      0.328      -0.012       0.036
 ==============================================================================
 Omnibus:                       28.923   Durbin-Watson:                   1.597
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               29.374
 Skew:                           0.204   Prob(JB):                     4.18e-07
-Kurtosis:                       3.099   Cond. No.                         426.
+Kurtosis:                       3.099   Cond. No.                         7.45
 ==============================================================================
 
 Warnings:
@@ -1121,23 +1103,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.195
 Model:                            OLS   Adj. R-squared:                  0.194
 Method:                 Least Squares   F-statistic:                     482.7
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):          1.86e-188
-Time:                        22:30:29   Log-Likelihood:                -4610.7
-No. Observations:                3994   AIC:                             9227.
-Df Residuals:                    3991   BIC:                             9246.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):          1.86e-188
+Time:                        21:53:03   Log-Likelihood:                 2545.6
+No. Observations:                3994   AIC:                            -5085.
+Df Residuals:                    3991   BIC:                            -5066.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 =======================================================================================
                           coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------------
-const                   2.2765      0.121     18.759      0.000       2.039       2.514
-free sulfur dioxide     0.0076      0.001      9.016      0.000       0.006       0.009
-alcohol                 0.3221      0.010     31.057      0.000       0.302       0.342
+const                   0.3330      0.007     47.849      0.000       0.319       0.347
+free sulfur dioxide     0.0984      0.011      9.016      0.000       0.077       0.120
+alcohol                 0.3114      0.010     31.057      0.000       0.292       0.331
 ==============================================================================
 Omnibus:                       78.662   Durbin-Watson:                   1.584
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):              113.375
 Skew:                           0.221   Prob(JB):                     2.40e-25
-Kurtosis:                       3.696   Cond. No.                         392.
+Kurtosis:                       3.696   Cond. No.                         7.74
 ==============================================================================
 
 Warnings:
@@ -1146,158 +1128,148 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.092
 Model:                            OLS   Adj. R-squared:                  0.091
 Method:                 Least Squares   F-statistic:                     201.9
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           2.96e-84
-Time:                        22:30:29   Log-Likelihood:                -4850.8
-No. Observations:                3994   AIC:                             9708.
-Df Residuals:                    3991   BIC:                             9727.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           2.96e-84
+Time:                        21:53:03   Log-Likelihood:                 2305.4
+No. Observations:                3994   AIC:                            -4605.
+Df Residuals:                    3991   BIC:                            -4586.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ========================================================================================
                            coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------------
-const                   93.7204      5.313     17.638      0.000      83.303     104.138
-total sulfur dioxide    -0.0002      0.000     -0.498      0.618      -0.001       0.001
-density                -88.2880      5.375    -16.426      0.000     -98.826     -77.750
+const                    0.5944      0.007     88.128      0.000       0.581       0.608
+total sulfur dioxide    -0.0073      0.015     -0.498      0.618      -0.036       0.022
+density                 -0.2185      0.013    -16.426      0.000      -0.245      -0.192
 ==============================================================================
 Omnibus:                       42.275   Durbin-Watson:                   1.599
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               55.310
 Skew:                           0.153   Prob(JB):                     9.76e-13
-Kurtosis:                       3.488   Cond. No.                     8.38e+04
+Kurtosis:                       3.488   Cond. No.                         9.94
 ==============================================================================
 
 Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 8.38e+04. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                quality   R-squared:                       0.036
 Model:                            OLS   Adj. R-squared:                  0.035
 Method:                 Least Squares   F-statistic:                     74.12
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           2.48e-32
-Time:                        22:30:29   Log-Likelihood:                -4970.5
-No. Observations:                3994   AIC:                             9947.
-Df Residuals:                    3991   BIC:                             9966.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           2.48e-32
+Time:                        21:53:03   Log-Likelihood:                 2185.8
+No. Observations:                3994   AIC:                            -4366.
+Df Residuals:                    3991   BIC:                            -4347.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ========================================================================================
                            coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------------
-const                    5.0005      0.312     16.048      0.000       4.390       5.611
-total sulfur dioxide    -0.0036      0.000    -11.203      0.000      -0.004      -0.003
-pH                       0.4531      0.097      4.692      0.000       0.264       0.642
+const                    0.5345      0.009     60.617      0.000       0.517       0.552
+total sulfur dioxide    -0.1413      0.013    -11.203      0.000      -0.166      -0.117
+pH                       0.0551      0.012      4.692      0.000       0.032       0.078
 ==============================================================================
 Omnibus:                       26.373   Durbin-Watson:                   1.591
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               30.880
 Skew:                           0.134   Prob(JB):                     1.97e-07
-Kurtosis:                       3.338   Cond. No.                     3.51e+03
+Kurtosis:                       3.338   Cond. No.                         8.31
 ==============================================================================
 
 Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 3.51e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                quality   R-squared:                       0.032
 Model:                            OLS   Adj. R-squared:                  0.032
 Method:                 Least Squares   F-statistic:                     66.29
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           4.77e-29
-Time:                        22:30:29   Log-Likelihood:                -4978.1
-No. Observations:                3994   AIC:                             9962.
-Df Residuals:                    3991   BIC:                             9981.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           4.77e-29
+Time:                        21:53:03   Log-Likelihood:                 2178.2
+No. Observations:                3994   AIC:                            -4350.
+Df Residuals:                    3991   BIC:                            -4332.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ========================================================================================
                            coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------------
-const                    6.2914      0.075     83.600      0.000       6.144       6.439
-total sulfur dioxide    -0.0038      0.000    -11.467      0.000      -0.004      -0.003
-sulphates                0.3557      0.136      2.615      0.009       0.089       0.622
+const                    0.5485      0.008     65.677      0.000       0.532       0.565
+total sulfur dioxide    -0.1463      0.013    -11.467      0.000      -0.171      -0.121
+sulphates                0.0320      0.012      2.615      0.009       0.008       0.056
 ==============================================================================
 Omnibus:                       28.019   Durbin-Watson:                   1.591
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               32.422
 Skew:                           0.144   Prob(JB):                     9.11e-08
-Kurtosis:                       3.334   Cond. No.                     1.61e+03
+Kurtosis:                       3.334   Cond. No.                         7.86
 ==============================================================================
 
 Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 1.61e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                quality   R-squared:                       0.179
 Model:                            OLS   Adj. R-squared:                  0.179
 Method:                 Least Squares   F-statistic:                     435.8
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):          6.29e-172
-Time:                        22:30:29   Log-Likelihood:                -4648.8
-No. Observations:                3994   AIC:                             9304.
-Df Residuals:                    3991   BIC:                             9323.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):          6.29e-172
+Time:                        21:53:03   Log-Likelihood:                 2507.5
+No. Observations:                3994   AIC:                            -5009.
+Df Residuals:                    3991   BIC:                            -4990.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ========================================================================================
                            coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------------
-const                    2.5816      0.150     17.221      0.000       2.288       2.875
-total sulfur dioxide     0.0007      0.000      2.088      0.037    4.33e-05       0.001
-alcohol                  0.3090      0.011     26.896      0.000       0.286       0.332
+const                    0.3654      0.010     38.342      0.000       0.347       0.384
+total sulfur dioxide     0.0276      0.013      2.088      0.037       0.002       0.054
+alcohol                  0.2987      0.011     26.896      0.000       0.277       0.320
 ==============================================================================
 Omnibus:                       72.924   Durbin-Watson:                   1.590
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):              118.621
 Skew:                           0.165   Prob(JB):                     1.75e-26
-Kurtosis:                       3.777   Cond. No.                     1.76e+03
+Kurtosis:                       3.777   Cond. No.                         10.2
 ==============================================================================
 
 Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 1.76e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                quality   R-squared:                       0.094
 Model:                            OLS   Adj. R-squared:                  0.094
 Method:                 Least Squares   F-statistic:                     207.6
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           1.67e-86
-Time:                        22:30:29   Log-Likelihood:                -4845.7
-No. Observations:                3994   AIC:                             9697.
-Df Residuals:                    3991   BIC:                             9716.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           1.67e-86
+Time:                        21:53:03   Log-Likelihood:                 2310.6
+No. Observations:                3994   AIC:                            -4615.
+Df Residuals:                    3991   BIC:                            -4596.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-const         92.9922      4.486     20.729      0.000      84.197     101.787
-density      -88.5630      4.479    -19.775      0.000     -97.344     -79.782
-pH             0.3061      0.094      3.259      0.001       0.122       0.490
+const          0.5728      0.008     70.452      0.000       0.557       0.589
+density       -0.2192      0.011    -19.775      0.000      -0.241      -0.197
+pH             0.0372      0.011      3.259      0.001       0.015       0.060
 ==============================================================================
 Omnibus:                       45.808   Durbin-Watson:                   1.596
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               60.375
 Skew:                           0.162   Prob(JB):                     7.76e-14
-Kurtosis:                       3.508   Cond. No.                     1.71e+03
+Kurtosis:                       3.508   Cond. No.                         7.96
 ==============================================================================
 
 Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 1.71e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                quality   R-squared:                       0.094
 Model:                            OLS   Adj. R-squared:                  0.093
 Method:                 Least Squares   F-statistic:                     206.3
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           5.47e-86
-Time:                        22:30:29   Log-Likelihood:                -4846.8
-No. Observations:                3994   AIC:                             9700.
-Df Residuals:                    3991   BIC:                             9719.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           5.47e-86
+Time:                        21:53:03   Log-Likelihood:                 2309.4
+No. Observations:                3994   AIC:                            -4613.
+Df Residuals:                    3991   BIC:                            -4594.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-const         96.1283      4.450     21.604      0.000      87.405     104.852
-density      -90.9186      4.482    -20.284      0.000     -99.706     -82.131
-sulphates      0.3756      0.131      2.871      0.004       0.119       0.632
+const          0.5774      0.008     76.159      0.000       0.563       0.592
+density       -0.2250      0.011    -20.284      0.000      -0.247      -0.203
+sulphates      0.0338      0.012      2.871      0.004       0.011       0.057
 ==============================================================================
 Omnibus:                       44.867   Durbin-Watson:                   1.595
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               57.752
 Skew:                           0.167   Prob(JB):                     2.88e-13
-Kurtosis:                       3.486   Cond. No.                         730.
+Kurtosis:                       3.486   Cond. No.                         7.47
 ==============================================================================
 
 Warnings:
@@ -1306,50 +1278,48 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.184
 Model:                            OLS   Adj. R-squared:                  0.184
 Method:                 Least Squares   F-statistic:                     451.0
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):          2.51e-177
-Time:                        22:30:29   Log-Likelihood:                -4636.4
-No. Observations:                3994   AIC:                             9279.
-Df Residuals:                    3991   BIC:                             9298.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):          2.51e-177
+Time:                        21:53:03   Log-Likelihood:                 2519.9
+No. Observations:                3994   AIC:                            -5034.
+Df Residuals:                    3991   BIC:                            -5015.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-const        -38.0571      7.545     -5.044      0.000     -52.849     -23.265
-density       40.2707      7.436      5.416      0.000      25.692      54.849
-alcohol        0.3763      0.018     21.278      0.000       0.342       0.411
+const          0.3093      0.014     21.653      0.000       0.281       0.337
+density        0.0997      0.018      5.416      0.000       0.064       0.136
+alcohol        0.3638      0.017     21.278      0.000       0.330       0.397
 ==============================================================================
 Omnibus:                       68.125   Durbin-Watson:                   1.593
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):              113.798
 Skew:                           0.141   Prob(JB):                     1.95e-25
-Kurtosis:                       3.777   Cond. No.                     9.30e+03
+Kurtosis:                       3.777   Cond. No.                         15.9
 ==============================================================================
 
 Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 9.3e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                quality   R-squared:                       0.006
 Model:                            OLS   Adj. R-squared:                  0.005
 Method:                 Least Squares   F-statistic:                     11.11
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):           1.54e-05
-Time:                        22:30:29   Log-Likelihood:                -5032.2
-No. Observations:                3994   AIC:                         1.007e+04
-Df Residuals:                    3991   BIC:                         1.009e+04
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):           1.54e-05
+Time:                        21:53:03   Log-Likelihood:                 2124.1
+No. Observations:                3994   AIC:                            -4242.
+Df Residuals:                    3991   BIC:                            -4223.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-const          4.4695      0.314     14.235      0.000       3.854       5.085
-pH             0.4550      0.099      4.601      0.000       0.261       0.649
-sulphates      0.0584      0.138      0.424      0.671      -0.212       0.328
+const          0.4617      0.008     56.523      0.000       0.446       0.478
+pH             0.0554      0.012      4.601      0.000       0.032       0.079
+sulphates      0.0053      0.012      0.424      0.671      -0.019       0.030
 ==============================================================================
 Omnibus:                       27.428   Durbin-Watson:                   1.592
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               27.900
 Skew:                           0.195   Prob(JB):                     8.74e-07
-Kurtosis:                       3.125   Cond. No.                         82.2
+Kurtosis:                       3.125   Cond. No.                         7.55
 ==============================================================================
 
 Warnings:
@@ -1358,23 +1328,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.180
 Model:                            OLS   Adj. R-squared:                  0.179
 Method:                 Least Squares   F-statistic:                     436.9
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):          2.72e-172
-Time:                        22:30:29   Log-Likelihood:                -4648.0
-No. Observations:                3994   AIC:                             9302.
-Df Residuals:                    3991   BIC:                             9321.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):          2.72e-172
+Time:                        21:53:03   Log-Likelihood:                 2508.3
+No. Observations:                3994   AIC:                            -5011.
+Df Residuals:                    3991   BIC:                            -4992.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-const          2.1228      0.296      7.183      0.000       1.543       2.702
-pH             0.2199      0.089      2.458      0.014       0.045       0.395
-alcohol        0.2953      0.010     29.103      0.000       0.275       0.315
+const          0.3709      0.007     56.835      0.000       0.358       0.384
+pH             0.0268      0.011      2.458      0.014       0.005       0.048
+alcohol        0.2855      0.010     29.103      0.000       0.266       0.305
 ==============================================================================
 Omnibus:                       77.252   Durbin-Watson:                   1.585
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):              131.973
 Skew:                           0.158   Prob(JB):                     2.20e-29
-Kurtosis:                       3.833   Cond. No.                         279.
+Kurtosis:                       3.833   Cond. No.                         7.02
 ==============================================================================
 
 Warnings:
@@ -1383,23 +1353,23 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.181
 Model:                            OLS   Adj. R-squared:                  0.181
 Method:                 Least Squares   F-statistic:                     440.9
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):          9.93e-174
-Time:                        22:30:29   Log-Likelihood:                -4644.7
-No. Observations:                3994   AIC:                             9295.
-Df Residuals:                    3991   BIC:                             9314.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):          9.93e-174
+Time:                        21:53:03   Log-Likelihood:                 2511.6
+No. Observations:                3994   AIC:                            -5017.
+Df Residuals:                    3991   BIC:                            -4998.
 Df Model:                           2                                         
 Covariance Type:            nonrobust                                         
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-const          2.5551      0.128     20.032      0.000       2.305       2.805
-sulphates      0.4427      0.124      3.560      0.000       0.199       0.686
-alcohol        0.3006      0.010     29.674      0.000       0.281       0.320
+const          0.3629      0.007     51.153      0.000       0.349       0.377
+sulphates      0.0398      0.011      3.560      0.000       0.018       0.062
+alcohol        0.2905      0.010     29.674      0.000       0.271       0.310
 ==============================================================================
 Omnibus:                       76.201   Durbin-Watson:                   1.583
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):              126.791
 Skew:                           0.165   Prob(JB):                     2.94e-28
-Kurtosis:                       3.808   Cond. No.                         137.
+Kurtosis:                       3.808   Cond. No.                         7.58
 ==============================================================================
 
 Warnings:
@@ -1408,35 +1378,33 @@ Warnings:
 Dep. Variable:                quality   R-squared:                       0.251
 Model:                            OLS   Adj. R-squared:                  0.249
 Method:                 Least Squares   F-statistic:                     121.6
-Date:                Sat, 16 Dec 2017   Prob (F-statistic):          8.93e-241
-Time:                        22:30:29   Log-Likelihood:                -4464.8
-No. Observations:                3994   AIC:                             8954.
-Df Residuals:                    3982   BIC:                             9029.
+Date:                Sun, 17 Dec 2017   Prob (F-statistic):          8.93e-241
+Time:                        21:53:04   Log-Likelihood:                 2691.5
+No. Observations:                3994   AIC:                            -5359.
+Df Residuals:                    3982   BIC:                            -5283.
 Df Model:                          11                                         
 Covariance Type:            nonrobust                                         
 ========================================================================================
                            coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------------
-const                  195.7607     27.647      7.081      0.000     141.557     249.965
-fixed acidity            0.1614      0.028      5.832      0.000       0.107       0.216
-volatile acidity        -1.8943      0.164    -11.531      0.000      -2.216      -1.572
-citric acid             -0.0015      0.143     -0.011      0.992      -0.282       0.279
-residual sugar           0.0955      0.010      9.229      0.000       0.075       0.116
-chlorides               -4.1894      1.484     -2.822      0.005      -7.100      -1.279
-free sulfur dioxide      0.0051      0.001      4.841      0.000       0.003       0.007
-total sulfur dioxide     0.0001      0.000      0.282      0.778      -0.001       0.001
-density               -196.8836     28.014     -7.028      0.000    -251.806    -141.961
-pH                       0.9336      0.130      7.170      0.000       0.678       1.189
-sulphates                0.7469      0.127      5.878      0.000       0.498       0.996
-alcohol                  0.1231      0.035      3.561      0.000       0.055       0.191
+const                    0.4829      0.023     20.635      0.000       0.437       0.529
+fixed acidity            0.1022      0.018      5.832      0.000       0.068       0.137
+volatile acidity        -0.1279      0.011    -11.531      0.000      -0.150      -0.106
+citric acid             -0.0001      0.011     -0.011      0.992      -0.022       0.022
+residual sugar           0.3405      0.037      9.229      0.000       0.268       0.413
+chlorides               -0.0384      0.014     -2.822      0.005      -0.065      -0.012
+free sulfur dioxide      0.0667      0.014      4.841      0.000       0.040       0.094
+total sulfur dioxide     0.0049      0.017      0.282      0.778      -0.029       0.039
+density                 -0.4873      0.069     -7.028      0.000      -0.623      -0.351
+pH                       0.1136      0.016      7.170      0.000       0.083       0.145
+sulphates                0.0672      0.011      5.878      0.000       0.045       0.090
+alcohol                  0.1190      0.033      3.561      0.000       0.053       0.184
 ==============================================================================
 Omnibus:                       73.989   Durbin-Watson:                   1.575
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):              117.935
 Skew:                           0.176   Prob(JB):                     2.46e-26
-Kurtosis:                       3.765   Cond. No.                     4.98e+05
+Kurtosis:                       3.765   Cond. No.                         81.0
 ==============================================================================
 
 Warnings:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 4.98e+05. This might indicate that there are
-strong multicollinearity or other numerical problems.
