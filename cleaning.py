@@ -11,7 +11,7 @@ from sklearn.decomposition import PCA
 def createImagesFolder(directory):
 
    if not os.path.exists(directory):
-     os.makedirs(directory)
+       os.makedirs(directory)
 
 
 def applyPCA(df, components):
@@ -32,8 +32,8 @@ def multipleRegression(df):
         y = df[df.columns[-1]]
         X = sm.add_constant(X)
         est = sm.OLS(y,X).fit()
-
         text_file.write(est.summary().as_text())
+
   text_file.close()
   text_file = open("figures/RegressionMultipleValues.txt", "a")
   # regression of all columns
@@ -51,16 +51,16 @@ def kruskalWallis(df, alpha):
   h = list(df.columns.values)
 
   for column in h[:-1]:
-    # get the H and pval
-    H, pval = mstats.kruskalwallis(df[column].tolist(),df["quality"].tolist())
+     # get the H and pval
+     H, pval = mstats.kruskalwallis(df[column].tolist(),df["quality"].tolist())
 
-    print " H-statistic:", H
-    print " P-Value:", pval
-    #check pvalue
-    if pval < alpha:
-       print "Reject NULL hypothesis - Significant differences exist between ",column," and quality \n\n"
-    if pval >= alpha:
-       print "Accept NULL hypothesis - No significant difference between ", column," and quality \n\n"
+     print " H-statistic:", H
+     print " P-Value:", pval
+     #check pvalue
+     if pval < alpha:
+         print "Reject NULL hypothesis - Significant differences exist between ",column," and quality \n\n"
+     if pval >= alpha:
+         print "Accept NULL hypothesis - No significant difference between ", column," and quality \n\n"
 
 
 
@@ -72,23 +72,22 @@ def isNormalDistribution(df,alpha,shapiro=True):
    count = 0
    for i in  h:
 
-      u,v = ss.shapiro(df[i])
-      k,p = mstats.normaltest(df[i])
+       u,v = ss.shapiro(df[i])
+       k,p = mstats.normaltest(df[i])
 
-      if (shapiro):
-         if v < alpha:
-            print "   The null hypothesis can be rejected; Column: ", i,"\n"
-            count += 1
-         else: "   The null hypothesis can not be rejected; Column: ",i,"\n"
-      if count == len(h):
-         print "\n\n   Any column follows a normal distribution\n"
-      else:
-         if p < alpha:
-           print "   The null hypothesis can be rejected; Column: ", i,"\n"
-           count += 1
-         else: "   The null hypothesis can not be rejected; Column: ",i,"\n"
-      if count == len(h):
-         print "\n\n   Any column follows a normal distribution\n"
+       if (shapiro):
+           if v < alpha:
+              print "   The null hypothesis can be rejected; Column: ", i,"\n"
+              count += 1
+           else: print "   The null hypothesis can not be rejected; Column: ",i,"\n"
+           
+       else:
+           if p < alpha:
+              print "   The null hypothesis can be rejected; Column: ", i,"\n"
+              count += 1
+           else: print "   The null hypothesis can not be rejected; Column: ",i,"\n"
+       if count == len(h):
+           print "\n\n   Any column follows a normal distribution\n"
 
 
 
@@ -116,18 +115,18 @@ def isHomogeneous(df,alpha,levene=True):
     F, p = ss.fligner(col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11)
 
     if (levene):
-      if p_val < alpha:
+        if p_val < alpha:
 
-       print "\n   It is not an homegeneous dataset (Levene)\n"
+           print "\n   It is not an homegeneous dataset (Levene)\n"
 
-      else: print "\n   It is an homogeneneous dataset (Levene)\n"  
+        else: print "\n   It is an homogeneneous dataset (Levene)\n"  
     
     else:
-      if p < alpha:
+        if p < alpha:
 
-       print "\n   It is not an homegeneous dataset (Fligner-Killeen) \n"
+           print "\n   It is not an homegeneous dataset (Fligner-Killeen) \n"
 
-      else: print "\n   It is an homogeneneous dataset (Fligner-Killen)\n"  
+        else: print "\n   It is an homogeneneous dataset (Fligner-Killen)\n"  
 
 
 def regression(df, r):
@@ -172,47 +171,47 @@ def checkOutliers(df, maxQ, minQ,  applyFunction=True,removeOutliers=True):
  dp = pd.DataFrame(columns=h)
  totalOutliers = 0
  if (applyFunction):
-   print "Counting the outliers..."
-   print "Column---Number---Outliers Up---Outliers Down"
-   for i in h:
-     outliers = 0
-     #compute iqr and maxQuantil and minQuantil
-     iqr = np.percentile(df[i].tolist(),maxQ)- np.percentile(df[i].tolist(),minQ)
-     maxQuantil = np.percentile(df[i].tolist(),maxQ) + float(iqr*1.5)
-     minQuantil = np.percentile(df[i].tolist(),minQ) - float(iqr*1.5)
-     supOutliers = df[i][df[i] > maxQuantil].count()
-     infOutliers = df[i][df[i] < minQuantil].count()
-     outliers += supOutliers + infOutliers
-     
-     
-     print i,"-->",outliers, ",", supOutliers, ",",infOutliers
-    
-     #plotting the outliers
-     flierprops = dict(markerfacecolor='1.75', markersize=5,linestyle='none')
-     sns.boxplot(df[i],flierprops=flierprops)
-     plt.savefig('figures/'+str(i)+"_BoxPlot")
-     plt.show(block=False)
-     plt.clf()
-     
-     #converting the outliers to NaN values
-     df[i] = df[i][df[i] < maxQuantil]
-     df[i] = df[i][df[i] > minQuantil]
-     
-   #remove the rows with NaN values
-   dp = df.dropna(axis=0, how='any')
+     print "Counting the outliers..."
+     print "Column---Number---Outliers Up---Outliers Down"
+     for i in h:
+		 outliers = 0
+		 #compute iqr and maxQuantil and minQuantil
+		 iqr = np.percentile(df[i].tolist(),maxQ)- np.percentile(df[i].tolist(),minQ)
+		 maxQuantil = np.percentile(df[i].tolist(),maxQ) + float(iqr*1.5)
+		 minQuantil = np.percentile(df[i].tolist(),minQ) - float(iqr*1.5)
+		 supOutliers = df[i][df[i] > maxQuantil].count()
+		 infOutliers = df[i][df[i] < minQuantil].count()
+		 outliers += supOutliers + infOutliers
+		 
+		 
+		 print i,"-->",outliers, ",", supOutliers, ",",infOutliers
+		
+		 #plotting the outliers
+		 flierprops = dict(markerfacecolor='1.75', markersize=5,linestyle='none')
+		 sns.boxplot(df[i],flierprops=flierprops)
+		 plt.savefig('figures/'+str(i)+"_BoxPlot")
+		 plt.show(block=False)
+		 plt.clf()
+		 
+		 #converting the outliers to NaN values
+		 df[i] = df[i][df[i] < maxQuantil]
+		 df[i] = df[i][df[i] > minQuantil]
+		 
+     #remove the rows with NaN values
+     dp = df.dropna(axis=0, how='any')
 
-   totalOutliers = df[h[0]].count() - dp[h[0]].count()
-   print "\n*** The total outliers in the dataset are :" +str(totalOutliers)+ "  ***\n "
-   #if removeOutliers we remove the NaN rows.  If not we replace by the Nan value by the mean
-   if (removeOutliers):
+     totalOutliers = df[h[0]].count() - dp[h[0]].count()
+     print "\n*** The total outliers in the dataset are :" +str(totalOutliers)+ "  ***\n "
+     #if removeOutliers we remove the NaN rows.  If not we replace by the Nan value by the mean
+     if (removeOutliers):
     
-    return dp
+        return dp
 
-   else: 
-    dp = df.fillna(df.mean())
-    return dp
+     else: 
+         dp = df.fillna(df.mean())
+         return dp
  else:
-    return df
+     return df
 
 
 
@@ -222,9 +221,9 @@ def normalizedData(df):
   dp = pd.DataFrame(columns=h)
   #we normalize data between 0 and 1
   for i in h:
-    maxim = float(df[i].max())
-    minim = float(df[i].min())
-    dp[i] = df[i].map(lambda x: (x- minim)/ (maxim-minim))
+     maxim = float(df[i].max())
+     minim = float(df[i].min())
+     dp[i] = df[i].map(lambda x: (x- minim)/ (maxim-minim))
 
   return dp
 
