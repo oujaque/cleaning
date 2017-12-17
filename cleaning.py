@@ -146,7 +146,7 @@ def regression(df, r):
       #if correlation is good enough ...
       if  (rvalue**2 > r or rvalue**2 < -r) :
 
-         print "\n***  The line equation is: ", h[j] ," =",slope,"*", h[i]," + (",intercept,")      ***\n" 
+         print "\n***  The line equation is: ", h[j] ," =",slope,"*", h[i]," + (",intercept,") with r=",rvalue**2,"     ***\n" 
 
          val.append((h[i],h[j]))
 
@@ -266,12 +266,12 @@ if __name__=="__main__":
    df.describe().to_csv("wineStatistics.csv")
 
    # checking the outliers 
-   dc = checkOutliers(df,75,25,False,True)
+   dc = checkOutliers(df,75,25,True,True)
 
 
    #normalizing data
-   #dn = normalizedData(dc)
-   dn = dc
+   dn = normalizedData(dc)
+
    #checking if normal distribution
    isNormalDistribution(dn,0.05)
 
